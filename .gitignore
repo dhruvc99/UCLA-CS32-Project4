@@ -3,3 +3,4 @@
 *.zip
 *.xcodeproj
 .ipynb_checkpoints
+*.html
