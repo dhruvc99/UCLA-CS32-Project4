@@ -1,0 +1,121 @@
+\documentclass[10pt]{article}
+
+\input{../../bmacros}
+
+%Style section
+\setlength{\textheight}{10in}
+\setlength{\textwidth}{6.5in}
+\hoffset=-0.75in
+\voffset=-1in
+
+\begin{document}
+
+\noindent
+{Math 118 \hfill Homework Assignment 2 Fall 2020}
+%\vskip 0.1truein
+\bigskip
+\begin{quote}\emph{This is your second homework assignment. Note that question 7 and 8 will be added after we discuss spectral clustering for Euclidean data, most likley on Monday 02/01. I strongly encourage you to typeset it using the LaTeX template provided. It is due by Friday, February 12th.} \\
+\end{quote}
+\hrulefill
+\vskip 0.1truein
+
+\begin{enumerate}
+
+\item Write code that implements the alternating least squares algorithm for finding the non-negative matrix factorization.  You can use the function {\tt scipy.optimize.nnls} (in Python) or {\tt lsqnonneg} (in MATLAB) to solve the least squares problems arising in each iteration of your algorithm. Use your code to find the NMF of $A$ given below. Include your code and output as your answer.
+$$\begin{bmatrix}
+0.238 & 0.387 & 1.065 & 0.494 \\
+0.345 & 0.603 & 1.056 & 0.512 \\
+0.302 & 0.555 & 0.59 & 0.308 \\
+0.283 & 0.473 & 1.132 & 0.531
+\end{bmatrix}$$
+
+\item Suppose that you run a small grocery store, and you wish to understand your customers better. Specifically, you'd like to {\em segment} your customers into a small number of groups with similar purchasing characteristics. So, you do the following:
+\begin{enumerate}
+	\item You identify $6$ main categories of product: Bread, Fresh fruit \& Veggies, Cigarettes, Milk, Canned Food, Newspapers.
+	\item You select $5$ customers and (legally and ethically!) track their purchasing habits for a month. Specifically you record the amount that they spend on each category of product in the month, and then normalize this amount to a number between $0$ and $1$.
+\end{enumerate}
+This data is presented in matrix $X$ in \eqref{eq:NMF_Matrices}. The first column corresponds to customer $1$, the second to customer $2$ and so on. The first row corresponds to Bread, the second to Fresh fruit \& Veggies and so on. Also presented in \eqref{eq:NMF_Matrices} is the {\em non-negative matrix factorization} of $X$. That is, $X \approx WH$. 
+
+\begin{equation*}
+X = \begin{bmatrix}
+0.735 & 0.179 & 0.079 & 0.698 & 0.307 \\
+0.093 & 0.655 & 0.655 & 0.436 & 0.604 \\
+0.686 & 0.782 & 0.547 & 0.427 & 0.471 \\
+0.138 & 0.223 & 0.573 & 0.846 & 0.164 \\
+0.427 & 0.018 & 0.488 & 0.193 & 0.819 \\
+0.78 & 0.69 & 0.354 & 0.221 & 0.184
+\end{bmatrix}
+W = \begin{bmatrix}
+0.162 & 0.449 & 0.696 \\
+0.784 & 0.0 & 0.0 \\
+0.632 & 0.599 & 0.0 \\
+0.413 & 0.0 & 0.648 \\
+0.62 & 0.0 & 0.0 \\
+0.336 & 0.766 & 0.0
+\end{bmatrix}
+H = \begin{bmatrix}
+0.268 & 0.557 & 0.896 & 0.538 & 0.854 \\
+0.94 & 0.595 & 0.0 & 0.0 & 0.0 \\
+0.226 & 0.0 & 0.0 & 0.917 & 0.0
+\end{bmatrix}
+\label{eq:NMF_Matrices}
+\end{equation*}
+
+\begin{enumerate}
+\item Recall that the columns of $W$ represent the categories, or segments, of customers. Interpret these segments based on the products they purchase the most. \\
+
+\item With which segment is Customer 1 most strongly associated? \\
+
+\item With which segment is Customer 3 most strongly associated? \\
+
+\end{enumerate}
+
+\item Let $\mathcal{G}$ be a $2\times 2\times 4$ tensor with slices:
+$$
+\mathcal{G}(:,:,1) = \left[\begin{matrix} 1 & 2 \\ -2 & 1 \end{matrix}\right] \quad \mathcal{G}(:,:,2) = \left[\begin{matrix} -2 & 1 \\ 1 & 2 \end{matrix}\right] \quad \mathcal{G}(:,:,3) = \left[\begin{matrix} 3 & 5 \\ -11 & 2 \end{matrix}\right] \quad \mathcal{G}(:,:,4) = \left[\begin{matrix} -2 & -1 \\ 7 & 1.5 \end{matrix}\right]
+$$
+Compute $\text{unfold}_1(\mathcal{G}), \text{unfold}_2(\mathcal{G})$ and $\text{unfold}_3(\mathcal{G})$. \\
+
+\item Consider the matrices:
+$$
+A = \left[\begin{matrix} 1 & 4 \\ 2 & 5 \end{matrix}\right] \quad B = \left[\begin{matrix} -2 & 2 \\ 3 & -3 \end{matrix}\right] \quad \text{ and } C = \left[\begin{matrix} 1 & 0 \\ 0 & -1 \end{matrix}\right]
+$$
+Compute $[[A,B,C]]$. Express your answer by giving the slices of the resulting tensor.
+
+\item The following questions are related to Spectral Clustering. The notation is as established in Lecture 9. Recall that  $\displaystyle \left(\mathbf{I}_{S}\right)_{i} = \left\{\begin{array}{cc} \sqrt{\frac{|S^{c}|}{|S|}} & \text{ if } v_i \in S \\ -\sqrt{\frac{|S|}{|S^{c}|}} & \text{ if } v_i \notin S \end{array}\right.$ for any $S\subset V$.  
+
+\begin{enumerate}
+	\item Show that if $S \neq \emptyset, V$ then $\|\mathbf{I}_{S}\|_{2} = \sqrt{n}$. \\
+	\item Suppose that $G$ has two connected components: $V = C_1\cup C_2$. Show that $L\mathbf{I}_{C_1} = 0$. Conclude that Spectral clustering will succesfully find connected components of a graph. \\
+	\item It is a fact that $\displaystyle \bv^{\top}L\bv = \frac{1}{2}\sum_{i,j}A_{ij}(v_i - v_{j})^{2}$ for any $\bv\in \mathbb{R}^{n}$ {\em (You do not need to prove this!)}. Use this to show that:
+	\begin{align*}
+		 \text{Rcut}(S) = \frac{1}{n^{2}} \mathbf{I}_{S}^{\top}L\mathbf{I}_{S}
+	\end{align*}
+\end{enumerate}
+
+
+
+\item For this question you will use the provided notebook: labeled "Question on Spectral Clustering". Write code that implements the spectral clustering algorithm, for two clusters, in Python. Use the built in function {\tt numpy.linalg.eig} to find the eigenvectors. Use your code to identify the clusters in the Mystery Graph provided (there are two of them). Include your code and a list of vertices in both clusters as your answer. \\
+
+\item Question on spectral clustering for Euclidean data. \\
+
+\item Question on spectral clustering for Euclidean data. \\
+
+\item Let $P = A^{\top}(D^{\text{out}})^{-1}$ denote the transition matrix for a directed graph $G$ (as defined in Lecture 11). Prove that $P$ is column stochastic. \\
+
+
+\item In this question you will work through a single iteration of k-means for a simple data set. Let $\mathcal{X} = \{\bx_1,\ldots, \bx_{10}\}\subset\mathbb{R}$ where:
+\begin{align*}
+& \bx_1 = -0.82, \quad \bx_2 = -1.33 \quad \bx_3 = -3.63, \quad \bx_4 = -1.62, \quad \bx_5 = -2.95 \\ 
+& \bx_6 = 0.95, \quad \bx_7 = 0.53, \quad \bx_{8} = 1.79, \quad \bx_9 = 0.95 \text{ and } \bx_{10} = 2.28
+\end{align*}
+We will take $k = 2$, that is we are seeking to partition $\mathcal{X} = \mathcal{X}_1\cup\mathcal{X}_2$.  Suppose that we initialize the cluster centers randomly as $\mu_{1}^{(0)} = -1.56$ and $\mu_{2}^{(0)} = 2.37$.
+\begin{enumerate}
+	\item Compute the distances $\|\bx_{i} - \mu_{a}^{(0)}\|_{2}$ for $i=1,\ldots, 10$ and $a=1,2$. Write these as a $10\times 2$ matrix. \\
+	\item Now, using these distances compute $\mathcal{X}_{1}^{(1)}$ and $\mathcal{X}_{2}^{(1)}$.
+	\item Finally, compute the new centroids $\mu_1^{(1)}$ and $\mu_{2}^{(1)}$ .
+\end{enumerate}
+{\bf Optional:} Check your answer using Python. \\
+
+\end{enumerate}
+\end{document}

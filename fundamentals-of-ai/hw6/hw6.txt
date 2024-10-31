@@ -1,0 +1,72 @@
+Name: Dhruv Chakraborty
+UID: 204-962-098
+CS 161 HW 6
+
+1. 
+(a)
+{x/A, y/B, z/B}
+
+(b)
+No unification exists - substituting A/x leaves no unifier for B.
+
+(c)
+{x/John, y/John}
+
+(d)
+No unification exists - subsiting x/Father(y) leaves no unifier for y. 
+
+2.
+(a)
+i. Ax Food(x) => Likes(John, x)
+ii. Food(Apples)
+iii. Food (Chicken)
+iv. Ax(Ay Eats(x, y) & -MakesSick(y, x) => Food(y))
+v. Ax(Ay MakesSick(x, y) => -Well(x))
+vi. Eats(Bill, Peanuts) & Well(Bill)
+vii. Ax Eats(Bill, x) => Eats(Sue, x)
+
+(b) 
+Ax Food(x) => Likes(John, x) gives us Ax -Food(x) | Likes(John, x)
+Instantiating x on Apples, we get: -Food(Apples) | Likes(John, Apples) which gives us Likes(John, Apples)
+Similarly for Chicken, we get: -Food(Chicken) | Likes(John, Chicken) which gives us Likes(John, Chicken)
+
+(c) 
+
+From vi, we have Eats(Bill, Peanuts), using which we instatintiate x on Peanuts in vii, giving us
+Eats(Bill, Peanuts) => Eats(Sue, Peanuts) i.e. Eats(Sue, Peanuts)
+
+3.
+We have:
+i. Mother(Mary, Tom)
+ii. Alive(Mary)
+iii. AxAy Mother(x, y) => Parent(x, y)
+iv. AxAy (Parent(x, y) & Alive(x)) => Older(x, y)
+
+Instantiating x to Mary and y to Tom and using i and iii we get Parent(Mary, Tom)
+Using Parent(Mary, Tom) and ii we get Older(Mary, Tom) i.e Mary is older than Tom
+
+4. 
+
+     A2
+   _|  |_      (arrows point downward)
+  1      0
+  |      |
+  0      1
+
+
+Splitting on A2 gives us the most information since A1 and A3 are ambiguous on both thier values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+#include "Actor.h"
+#include "StudentWorld.h"
+#include "GameConstants.h"
+
+// Actor's implementations:
+
+Actor::Actor(int imageID, double startX, double startY, int startDirection, int depth, StudentWorld* myWorld, string actorType) :
+       GraphObject(imageID, startX, startY, startDirection, depth), m_World(myWorld), m_actorType(actorType)
+{}
+
+// Penelope's implementations:
+
+Penelope::Penelope(double startX, double startY, StudentWorld* myWorld) :
+          Actor(IID_PLAYER, startX, startY, right, 0, myWorld, "Penelope")
+{}
+
+void Penelope::doSomething()
+{
+    int key;
+    if (getWorld()->getKey(key))
+    {
+        switch(key)
+        {
+        case KEY_PRESS_LEFT:
+            setDirection(left);
+            if (getWorld()->checkMove(getX() - STEP, getY(), this))
+                moveTo(getX() - STEP, getY());
+            break;
+
+        case KEY_PRESS_RIGHT:
+            setDirection(right);
+            if (getWorld()->checkMove(getX() + STEP, getY(), this))
+                moveTo(getX() + STEP, getY());
+            break;
+
+        case KEY_PRESS_UP:
+            setDirection(up);
+            if (getWorld()->checkMove(getX(), getY() + STEP, this))
+                moveTo(getX(), getY() + STEP);
+            break;
+
+        case KEY_PRESS_DOWN:
+            setDirection(down);
+            if (getWorld()->checkMove(getX(), getY() - STEP, this))
+                moveTo(getX(), getY() - STEP);
+            break;
+        }
+    }
+}
+
+// Wall's implementations:
+
+Wall::Wall(double startX, double startY, StudentWorld* myWorld) :
+      Actor(IID_WALL, startX, startY, right, 0, myWorld, "Wall")
+{}
+
+void Wall::doSomething()
+{}

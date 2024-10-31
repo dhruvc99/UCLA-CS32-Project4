@@ -1,0 +1,50 @@
+﻿report.txt
+
+Dhruv Chakraborty
+UID: 204-962-092
+
+My program uses a doubly linked list i.e. the list contains of nodes which store pointers to both their previous and next nodes. I implemented the functionality of set using 
+this list. I also added a tail in addition the head to make backward traversal possible. 
+If I had more time, I would've solidified my understanding of dummy nodes and implemented the program using them for both my head and tail, since that remove the need to have 
+so many additional cases.
+
+Pseudocode:
+
+Set::insert:
+- first check if value is contained in set, if it is, return false
+- if set is the empty list, i handle it as a special case and increase size, and return true after inserting value
+- if the above two are not the case, then i find the position to insert the value into such that set remains sorted
+- handling positions head and tail as special cases, i then insert the value into the respective sorted_index, increase size and return true
+
+Set::erase:
+- if set is empty, return false
+- otherwise attempt to find value and store index, treating value being at head or tail as special cases
+- return true and decrease sizeif we found and removed value, otherwise return false.
+
+unite:
+- assign all of s1 to results
+- using the insert function to insert s2's members to results suffices because insert doesn't insert values already in results
+
+subtract:
+- set results to all of s1
+- erase each element of s2 we find in results by using get and erase member functions of set class
+
+Test Cases:
+
+Set s; // checks default constructor
+assert(s.empty()); // checks if s is empty, indirectly checking size() function
+
+assert(s.insert("please")); // checks insert function
+assert(s.insert("give"));
+assert(s.insert("me"));
+assert(s.insert("full"));
+assert(s.insert("points"));
+assert(!s.insert("please")) // check if return false
+
+// Sorry but you’ll need to try harder. Maybe more testcases, better pseudocode, and some useful comments in your cpp file would’ve helped
+
+assert(s.size() == 5); //checks size function
+
+Set ss(s); // check copy constructor
+Set sss;
+sss = ss; // check assignment operator

@@ -1,0 +1,952 @@
+Asami,Jason,3.2,02/04/10,15:50,Split Uber fare
+Calvin,Vesper,19.99,11/11/11,11:26,Blender
+Calvin,Matthew C,33.33,12/5/17,5:18,Tickets to a concert
+Calvin,Ellen,10,3/2/18,20:38,Candles
+Calvin,Jihye,40,3/3/18,12:24,Vaccuum
+Calvin,Dhruv,20,3/3/18,13:15,Pasta
+Calvin,Brandon,800,4/1/18,15:19,Rent money
+Calvin,Tiffany,600,4/4/18,5:26,Refrigerator
+Calvin,Jiachen,12,4/5/18,18:25,Windex
+Calvin,Matthew F,18.99,4/6/18,7:48,In n Out Meal
+Calvin,Lawrence,15,5/5/18,10:24,Cupcakes
+Calvin,Xinyi,30,5/6/18,13:58,Car troubles
+Calvin,Colleen,200,6/6/18,23:10,Tattoo
+Calvin,Jessica,50,6/7/18,3:35,Puppies
+Calvin,Asami,20,7/6/18,12:20,Gas money
+Calvin,Firat,10,7/7/18,20:41,Strawberries
+Calvin,Kamel,5,8/19/18,1:58,Lost to me in Fifa
+Calvin,Hao,9.11,9/11/18,12:13,Coffee
+Nicholas,Elizabeth M,225,9/15/18,22:28,Ikea couch
+Colleen,Nima,89,09/20/18,4:46,concert ticket
+Colleen,Jihye,89,09/20/18,15:9,concert ticket
+Lawrence,Nicholas,14.8,09/24/18,19:4,electric bill
+Xinyi,Jiachen,14,9/28/18,1:51,ramen
+Minju,Jessica,5,10/11/18,4:34,Meal plan swipe
+Xinyi,Madalena,10,10/13/18,11:1,candle
+Xinyi,Jiapeng,29,10/13/18,18:51,kitchen supplies
+Xinyi,Matthew C,5,10/14/18,21:37,lighter
+Xinyi,Matthew F,12,10/20/18,6:2,Parking
+Elizabeth M,Isra,23,11/2/18,6:23,Tickets
+Xinyi,Matthew L,30,11/2/18,9:9,gas
+Calvin,Alexander,7,11/20/18,19:23,Tacos
+Calvin,Madalena,17.38,11/21/18,2:22,Pan
+Isra,Nima,14.23,11/22/18,13:49,thanksgiving prep
+Xinyi,Minju,27,11/28/18,13:8,lipstick
+Xinyi,Nima,5,11/29/18,4:55,Notebook
+Elizabeth M,Jason,9,12/1/18,8:22,Art walk bracelet
+Jiapeng,Ernest,4.2,12/1/18,15:14,ice cream
+Elizabeth M,Nicholas,5,12/1/18,16:57,Drinks
+Calvin,Claire,20,12/1/18,17:58,Secret Hitler
+Elizabeth M,Jessica,7.34,12/2/18,19:11,Diddy Reese
+Jiapeng,Hao,5,12/2/18,21:37,Uber
+Jiapeng,Alexander,5.8,12/3/18,22:28,pencil case
+Jiapeng,Asami,4.6,12/4/18,21:40,snacks
+Jiapeng,Brandon,7.4,12/5/18,1:14,lyft
+Jiapeng,Calvin,8.2,12/6/18,6:10,subway
+Jiapeng,Claire,9,12/7/18,5:13,movie ticket
+Jiapeng,Colleen,1.75,12/8/18,21:27,coke
+Jiapeng,Dhruv,13,12/9/18,21:8,Uber
+Jiapeng,Elizabeth M,11.4,12/10/18,13:0,umbrella
+Elizabeth M,Jiachen,3.33,12/10/18,19:32,Swipe
+Jiapeng,Elizabeth N,12.2,12/11/18,22:0,Monopoly
+Jiapeng,Ellen,9.5,12/12/18,9:48,subway
+Isra,Nicholas,18.45,12/12/18,18:55,carpool
+Jiapeng,Isra,13.8,12/13/18,23:1,Notebook
+Calvin,Nima,15,12/20/18,6:39,Taco Bell
+Rohan,Colleen,15.65,12/20/18,9:6,lacma ticket
+Rohan,Dhruv,23.4,12/21/18,6:17,Malibu trip food and gas
+Calvin,Matthew L,20,12/21/18,7:6,Spam
+Rohan,Elizabeth M,13.9,12/22/18,18:54,Seoul Tofu in sawtelle
+Rohan,Elizabeth N,10.89,12/23/18,14:2,uber to west hollywood
+Isra,Calvin,5.55,12/24/18,8:30,boba
+Rohan,Ellen,5.43,12/24/18,19:18,dessert
+Rohan,Isra,6.76,12/25/18,8:31,ice cream
+Rohan,Jason,8.43,12/26/18,5:55,uber home
+Rohan,Jessica,4.32,12/27/18,3:24,bird to class
+Rohan,Jiachen,24.34,12/28/18,6:31,concert ticket
+Minju,Kamel,211.9,12/29/18,12:55,Flight to Las Vegas
+Rohan,Jiapeng,12.23,12/29/18,13:37,buying a tshirt
+Minju,Jihye,58.8,12/30/18,1:19,Six Flags ticket
+Brandon,Minju,54.43,12/30/18,2:53,Groceries
+Calvin,Landon,12,1/1/19,0:36,Waterbottle
+Vesper,Ernest,6,1/1/19,0:58,meal swipe
+Minju,Vesper,19.9,01/01/19,7:43,Vesper paid for my dinner
+Jason,Calvin,4.19,1/1/19,12:24,Uber split
+Minju,Landon,100,01/01/19,16:32,Prize money
+Firat,Ernest,5.3,1/1/19,19:50,Chick-fila-a
+Ernest,Hao,13.1,01/01/19,20:45,Hao paid for my lunch
+Matthew C,Hao,1.5,1/1/19,21:30,split uber fare
+Matthew C,Alexander,2.3,1/2/19,13:40,ice cream
+Landon,Colleen,33.44,1/2/19,15:3,Phone Case
+Jason,Claire,2.25,1/2/19,15:24,Lyft split
+Ellen,Xinyi,35.13,1/2/19,16:44,Water bill
+Vesper,Hao,6.5,1/2/19,19:4,burger king
+Jiapeng,Jason,14.6,1/2/19,19:30,hat
+Neng,Nima,10,1/2/19,19:54,Swipe
+Dhruv,Ellen,2.5,1/2/19,23:46,batteries
+Jiapeng,Jessica,15.4,1/3/19,0:46,dinner swipe
+Elizabeth N,Ernest,20.35,01/03/19,8:32,Textbook
+Luoting,Nicholas,8.5,1/3/19,10:39,Lyft
+Asami,Brandon,3.4,01/03/19,12:23,Brandon  paid for my coffee
+Jason,Colleen,6.46,1/3/19,18:47,Shared the bird
+Matthew C,Asami,4.6,1/3/19,19:45,in n out burger
+Vesper,Alexander,4.2,1/3/19,21:12,boba
+Isra,Ernest,30.22,1/3/19,21:44,uber
+Jiapeng,Jiachen,16.2,1/4/19,2:36,super
+Vesper,Asami,12,1/4/19,4:40,ramen
+Jason,Dhruv,15,1/4/19,7:22,Beer money
+Ellen,Tiffany,55.82,1/4/19,7:51,Electric bill
+Elizabeth M,Jiapeng,7.65,1/4/19,8:33,Uber
+Dhruv,Isra,12,1/4/19,13:15,movies
+Landon,Hao,6,1/4/19,17:39,Popcorn at Basketball Game
+Matthew C,Brandon,7.4,1/4/19,23:44,jamba juice
+Landon,Kyra,2.43,1/5/19,3:1,Sour Patch Kids
+Ellen,Landon,10.28,1/5/19,6:20,Gas bill
+Nicholas,Minju,90,1/5/19,12:21,running shoes
+Jason,Elizabeth M,12,1/5/19,15:9,Shots at Barney's
+Asami,Calvin,12.7,01/05/19,16:16,Calvin paid for my lunch
+Dhruv,Jason,8,1/5/19,16:27,in n out
+Isra,Hao,2.25,1/5/19,17:20,slurpee
+Jiapeng,Rohan,17,1/5/19,18:40,party fee
+Matthew C,Calvin,5.2,1/5/19,21:12,swiped me into dining hall
+Vesper,Brandon,5,1/5/19,22:7,uber
+Neng,Rohan,12,1/5/19,23:0,Pizza
+Vesper,Calvin,300,1/6/19,0:22,parking permit
+Isra,Alexander,33.75,1/6/19,2:57,birthday dinner
+Elizabeth N,Hao,17,01/06/19,4:35,Lunch
+Jiapeng,Jihye,17.8,1/6/19,9:1,shooting
+Matthew C,Claire,8.4,1/6/19,12:35,cava
+Jason,Elizabeth N,5.17,1/6/19,16:22,Uber eats Wendey's
+Dhruv,Matthew C,35,1/6/19,22:35,painting classes
+Jiapeng,Kamel,18.6,1/7/19,10:54,cat cafe
+Jason,Ellen,8.49,1/7/19,14:8,McDonald's midnight snack
+Dhruv,Matthew F,12.88,1/7/19,17:40,gas
+Matthew C,Colleen,9,1/7/19,19:28,chipotle
+Lawrence,Jiapeng,14.4,1/8/19,3:54,uber to melrose
+Jiapeng,Kyra,19.4,1/8/19,7:14,Uber
+Dhruv,Matthew L,42.33,1/8/19,8:54,airbnb
+Jason,Isra,8.5,1/8/19,16:21,Cotton candy at the fair
+Matthew C,Dhruv,3.2,1/8/19,18:23,subway
+Neng,Sophia,2,1/8/19,18:31,Blue book
+Calvin,Minju,200,1/8/19,19:59,Yeezy shoes
+Firat,Hao,4.72,1/8/19,21:31,Burger King
+Elizabeth N,Alexander,17.8,01/09/19,0:9,Uber fare
+Jiapeng,Landon,20.2,1/9/19,3:30,party fee
+Jason,Alexander,9.84,1/9/19,11:24,Picked up nails at Lowe's
+Matthew C,Elizabeth M,1.6,1/9/19,14:51,split uber fare
+Ellen,Lawrence,17.74,1/9/19,17:2,Internet bill
+Dhruv,Jessica,60,1/9/19,17:24,football game
+Dhruv,Minju,7.4,1/9/19,21:19,lunch swipe
+Yeyubei,Asami,6,1/10/19,5:11,Diet coke
+Jason,Jessica,125,1/10/19,11:41,Parking spot for January
+Dhruv,Nicholas,2.75,1/10/19,17:0,bus ticket
+Matthew C,Ellen,7,1/10/19,19:39,frozen yogurt
+Nicholas,Vesper,3.5,1/10/19,19:45,shampoo
+Matthew C,Isra,4.5,1/11/19,0:10,panda express
+Neng,Asami,24.5,1/11/19,2:14,Textbook
+Jason,Jiachen,37.88,1/11/19,7:39,Electric bill
+Madalena,Jiachen,4,1/11/19,10:23,churros
+Dhruv,Nima,16.8,1/11/19,19:33,uber back to ucla
+Jason,Jiapeng,12.73,1/12/19,1:18,Gas bill
+Madalena,Jiapeng,4.6,1/12/19,1:42,uber
+Alexander,Vesper,3.99,01/12/19,3:11,Cat treats
+Elizabeth N,Asami,2,01/12/19,8:47,Parking
+Ernest,Kyra,2.5,01/12/19,10:15,Kyra paid my bus fare
+Matthew C,Jason,7.4,1/12/19,12:15,rubios
+Minju,Lawrence,298.7,01/12/19,19:32,Flight to San Francisco
+Minju,Alexander,8,01/12/19,21:41,Souvenir shop
+Dhruv,Rohan,13.46,1/12/19,22:21,grand central market 
+Matthew C,Jessica,8.9,1/13/19,1:51,carls jr
+Jason,Jihye,29.97,1/13/19,17:3,Water bill
+Neng,Brandon,5.99,1/14/19,6:24,candy
+Landon,Minju,10.98,1/14/19,9:23,Uber
+Dhruv,Jiachen,22.89,1/14/19,11:1,uber to melrose
+Jason,Kamel,15,1/14/19,14:1,Trash bill
+Madalena,Elizabeth N,82,1/14/19,15:17,textbook
+Isra,Jessica,3.75,1/14/19,16:9,parking
+Asami,Claire,9,01/14/19,19:50,Meal plan swipe
+Ellen,Luoting,650,1/14/19,22:4,rent
+Matthew C,Jiachen,3.6,1/14/19,22:18,mcdonalds
+Madalena,Vesper,30,1/15/19,5:2,club dues
+Matthew C,Jiapeng,2.7,1/15/19,9:48,wendys
+Jason,Kyra,11.44,1/15/19,11:53,McDonald's for breakfast
+Firat,Alexander,9.99,1/15/19,14:12,Panda Express
+Elizabeth N,Brandon,2.5,01/15/19,17:20,Pen
+Lawrence,Jiachen,21,1/15/19,22:59,in n out
+Jason,Landon,8.49,1/16/19,0:31,Lunch at McDonald's
+Matthew C,Jihye,6.4,1/16/19,1:38,split uber fare
+Nicholas,Jiapeng,4,1/16/19,5:39,split uber to the Getty
+Isra,Jihye,1.25,1/16/19,16:56,water bottle
+Asami,Colleen,3,01/16/19,21:35,Colleen paid for my bus fare
+Jason,Lawrence,3.27,1/17/19,1:52,Pizookies at BJ's Tuesday deal
+Matthew C,Kamel,8,1/17/19,3:17,ticket to bball game
+Landon,Rohan,5,1/17/19,8:10,Laundry Coins
+Isra,Matthew L,35,1/17/19,10:35,tutoring
+Elizabeth M,Colleen,11.3,1/17/19,11:19,In n Out Meal
+Ellen,Madalena,5.12,1/17/19,11:43,split uber fare
+Neng,Calvin,2.99,1/17/19,11:56,ice cream
+Lawrence,Jihye,13,1/17/19,13:2,lent cash
+Dhruv,Jiapeng,34,1/17/19,17:2,math textbook
+Elizabeth N,Calvin,8,01/18/19,14:2,Ice Cream
+Jason,Luoting,5,1/18/19,16:44,Chase from Ralph's
+Luoting,Ellen,15.66,1/18/19,18:57,T-shirt
+Matthew C,Kyra,2,1/18/19,19:3,burger king
+Matthew C,Landon,8.3,1/19/19,0:25,boba
+Isra,Lawrence,7.5,1/19/19,2:41,club shirt
+Jason,Madalena,64.5,1/19/19,16:0,Air Bnb
+Firat,Asami,24.73,1/19/19,16:24,Lyft
+Elizabeth M,Minju,15,1/19/19,16:59,Club donation
+Asami,Dhruv,10,01/19/19,22:34,Parking fee
+Vesper,Claire,2,1/20/19,0:36,blue book
+Nicholas,Landon,14,1/20/19,1:2,snacks
+Neng,Claire,1.99,1/20/19,1:42,pen
+Minju,Jiachen,167.9,01/20/19,5:58,Broadway musical ticket
+Nicholas,Lawrence,22,1/20/19,8:35,toner for printer
+Asami,Elizabeth M,5.3,01/20/19,10:39,Split Uber fare
+Matthew C,Lawrence,7.8,1/20/19,11:51,went bowling
+Landon,Matthew F,30.47,1/20/19,19:14,HydroFlask
+Colleen,Kyra,8.51,01/21/19,2:30,Lyft split
+Elizabeth N,Claire,18.65,01/21/19,3:58,Movie Ticket
+Matthew C,Luoting,5.3,1/21/19,17:40,split uber fare
+Nicholas,Jessica,28,1/21/19,17:57,Ralphs
+Colleen,Landon,8.51,01/21/19,19:36,Lyft split
+Vesper,Colleen,18,1/21/19,20:11,movie ticket
+Ellen,Matthew C,15.12,1/22/19,1:48,Matthew C paid for Postmates
+Vesper,Dhruv,8,1/22/19,2:20,panda express
+Matthew C,Madalena,11,1/22/19,3:59,mini golfing
+Luoting,Minju,22,1/22/19,8:26,Ralphs
+Dhruv,Jihye,660,1/22/19,16:34,rent 
+Brandon,Elizabeth M,12.1,1/23/19,4:0,Soap
+Matthew C,Ernest,3.7,1/23/19,9:36,pizza
+Neng,Colleen,5.86,1/23/19,20:21,Uber
+Vesper,Elizabeth M,6,1/23/19,23:7,meal swipe
+Firat,Brandon,16,1/24/19,0:8,T-shirt
+Elizabeth N,Colleen,6.42,01/24/19,6:23,In n Out
+Lawrence,Asami,22.6,1/24/19,7:3,notebook
+Matthew C,Matthew F,5.2,1/24/19,9:2,hotdog
+Dhruv,Kamel,25,1/24/19,18:17,lent cash
+Brandon,Elizabeth N,13.22,1/24/19,21:50,Water bottle
+Vesper,Elizabeth N,9,1/24/19,23:21,MacDonald's
+Ellen,Matthew F,20.25,1/24/19,23:27,Matthew F paid for museum entrance fee
+Asami,Elizabeth N,20.5,01/24/19,23:55,Split Uber fare
+Kamel,Kyra,7.82,1/25/19,0:24,Fat Sal's
+Brandon,Ellen,100,1/25/19,1:10,Concert Tickets
+Minju,Asami,15.9,01/25/19,11:6,Movie <Avengers:Endgame>
+Matthew C,Matthew L,7.4,1/25/19,11:9,candy
+Vesper,Ellen,3.5,1/25/19,11:17,boba
+Ernest,Elizabeth N,15,01/25/19,12:24,Park entrance fee
+Asami,Ellen,3.9,01/25/19,19:4,Split Uber fare
+Minju,Luoting,7.8,01/25/19,23:36,Split Uber fare
+Matthew C,Minju,9,1/26/19,0:37,falafel king
+Ellen,Matthew L,15.13,1/26/19,2:4,Matthew L paid for my lunch
+Neng,Dhruv,9.87,1/26/19,5:13,Lyft
+Brandon,Isra,12.2,1/26/19,5:55,computer mouse
+Kamel,Lawrence,3.25,1/26/19,10:15,Ate my Pasta
+Dhruv,Kyra,7.5,1/26/19,16:12,taco bell
+Kamel,Landon,82,1/26/19,18:26,Lakers Tickets
+Vesper,Isra,18,1/26/19,22:57,UCLA t shirt
+Brandon,Jason,42.33,1/27/19,9:48,Fix phone
+Elizabeth N,Dhruv,5,01/27/19,13:17,Candy
+Matthew C,Nicholas,8.7,1/27/19,15:6,flame broiler
+Vesper,Jason,20,1/27/19,15:11,student club membership fee
+Kamel,Madalena,20.19,1/28/19,6:39,Donation
+Brandon,Jessica,9,1/28/19,10:22,Orange Juice
+Kamel,Luoting,7.99,1/28/19,11:13,Pho
+Matthew C,Nima,4.6,1/28/19,13:20,taco bell
+Kamel,Matthew C,10.75,1/28/19,14:55,Salad
+Vesper,Jessica,10,1/28/19,23:6,ramen
+Neng,Elizabeth M,19.99,1/29/19,7:8,Noodle
+Matthew C,Rohan,3.2,1/29/19,9:46,swiped me into dining hall
+Vesper,Jiachen,24,1/29/19,13:9,textbook
+Kamel,Minju,11.25,1/29/19,23:31,Ski & Board Party
+Minju,Jason,5,01/30/19,7:52,Meal plan swipe
+Firat,Calvin,298,1/30/19,9:53,Xbox One
+Elizabeth N,Elizabeth M,11.06,01/30/19,11:14,Burrito
+Matthew C,Elizabeth N,4.7,1/30/19,11:52,split uber fare
+Asami,Isra,12.7,01/30/19,14:29,Split Uber fare
+Landon,Nima,20,1/30/19,15:1,Santa Monica Arcade Coins
+Luoting,Nima,100,1/30/19,20:28,Textbook
+Elizabeth M,Claire,2.99,2/1/19,1:59,Coffee
+Ellen,Minju,25.78,2/1/19,2:45,Minju paid for dinner in Westwood
+Luoting,Rohan,8,2/1/19,3:45,Swipe
+Landon,Matthew C,10,2/1/19,5:26,Spotify Premium
+Nicholas,Sophia,15,2/1/19,5:43,new iphone charger
+Madalena,Jason,1.25,2/1/19,8:7,donut
+Dhruv,Landon,18.99,2/1/19,12:20,target
+Isra,Ellen,12.5,2/1/19,12:57,movie ticket
+Neng,Elizabeth N,12.98,2/1/19,13:15,In n Out Meal
+Madalena,Elizabeth M,4.8,2/1/19,14:17,toilet paper
+Lawrence,Elizabeth M,24.5,2/1/19,15:56,Project Supplies
+Xinyi,Vesper,5.8,2/1/19,17:1,pencil case
+Xinyi,Landon,5,2/1/19,17:21,boba
+Yeyubei,Hao,3,2/1/19,18:23,chips
+Jason,Matthew C,83.42,2/2/19,0:37,San Diego Zoo tickets
+Elizabeth N,Ellen,10.94,02/02/19,1:10,Hat
+Lawrence,Ellen,4.8,2/2/19,1:33,Case of Water
+Nicholas,Matthew C,16,2/2/19,1:45,cool socks
+Calvin,Isra,5,2/2/19,6:52,Toothpaste
+Landon,Tiffany,15,2/2/19,7:59,Breakfast
+Firat,Claire,17,2/2/19,13:54,Basketball
+Isra,Luoting,4.5,2/2/19,14:22,cake
+Calvin,Kyra,40,2/2/19,16:1,Tito's
+Nicholas,Kamel,6,2/2/19,18:23,bagels
+Landon,Matthew L,14.97,2/3/19,0:48,Movie ticket
+Xinyi,Kamel,5,2/3/19,2:49,coke
+Vesper,Kamel,5,2/3/19,5:45,starbucks
+Ellen,Nicholas,20.25,2/3/19,9:55,Nicholas paid for movie tickets
+Elizabeth M,Firat,2.99,2/3/19,10:1,BDay present (split with 5 people)
+Vesper,Jihye,3.9,2/3/19,19:18,uber
+Vesper,Jiapeng,8,2/3/19,21:56,lyft
+Dhruv,Lawrence,113.99,2/3/19,23:58,play
+Neng,Ellen,10.99,2/4/19,0:13,Panda Express Meal
+Kamel,Nicholas,8.75,2/4/19,2:17,Movies
+Vesper,Kyra,4.8,2/4/19,6:25,starbucks
+Lawrence,Elizabeth N,19.5,2/4/19,8:35,Movie ticket
+Nicholas,Dhruv,15,2/4/19,15:29,pack of lightbulbs
+Firat,Colleen,8.33,2/4/19,22:5,Rubio's
+Vesper,Landon,4,2/5/19,1:7,boba
+Yeyubei,Calvin,2,2/5/19,1:23,Iced Beer 
+Elizabeth M,Brandon,8.35,2/5/19,2:9,Fruits
+Lawrence,Brandon,43.2,2/5/19,3:8,pencil lead
+Dhruv,Calvin,4.8,2/5/19,7:9,ice cream
+Elizabeth N,Isra,35.75,02/05/19,12:4,Dinner
+Kamel,Nima,7.99,2/5/19,12:40,Monthly friendship fees
+Landon,Lawrence,15.64,2/5/19,12:44,Paper Towels
+Yeyubei,Matthew L,13,2/5/19,21:47,Math 115A textbook
+Vesper,Lawrence,2,2/6/19,0:4,bus fare
+Dhruv,Luoting,45,2/6/19,5:33,cooking classes
+Ellen,Nima,8,2/6/19,10:4,Nima swiped me in to Bplate
+Yeyubei,Ellen,12,2/6/19,16:30,Lunch swipe
+Kamel,Rohan,3.5,2/6/19,22:9,Lyft
+Jason,Matthew F,10,2/6/19,23:52,Mowed the lawn
+Kamel,Sophia,45,2/7/19,0:52,Ski Pass
+Vesper,Luoting,7.5,2/7/19,1:25,movie ticket
+Asami,Jessica,8.2,02/07/19,5:43,Split Uber fare
+Minju,Brandon,15.9,02/07/19,10:36,Movie <Captain Marvel>
+Minju,Madalena,7.8,02/07/19,14:26,Split Uber fare
+Ernest,Ellen,20.87,02/07/19,18:18,Split Uber fare
+Neng,Firat,8.99,2/7/19,19:25,Cafe 1919 Meal
+Kamel,Hao,15.25,2/7/19,19:45,Sushi
+Asami,Jiachen,40.8,02/08/19,2:13,Grocery from Trader Joes
+Kamel,Asami,8.99,2/8/19,9:11,Geffen Playhouse
+Elizabeth N,Jason,17,02/08/19,9:19,Club tshirt
+Kamel,Alexander,23.25,2/8/19,11:40,Steak Dinner
+Vesper,Madalena,6,2/8/19,13:44,uber
+Firat,Dhruv,2.9,2/8/19,14:20,McDonald's
+Jason,Matthew L,5,2/8/19,16:43,Walked the dog
+Vesper,Matthew C,50,2/9/19,3:25,textbook
+Jason,Minju,2.75,2/9/19,5:45,Gas money to Venice
+Lawrence,Jason,28.4,2/9/19,6:42,sweatshirt
+Dhruv,Madalena,54.55,2/9/19,7:58,concert tickets
+Ellen,Calvin,4.5,2/9/19,10:45,Calvin bought my coffee
+Luoting,Matthew C,20.99,2/9/19,23:53,Target
+Luoting,Jiachen,13.22,2/10/19,4:51,Earrings
+Luoting,Jiapeng,30.2,2/10/19,14:52,BBQ ribs
+Vesper,Matthew F,3.8,2/10/19,15:5,boba
+Landon,Kamel,4,2/10/19,16:10,Parking
+Neng,Isra,40.99,2/10/19,21:56,Hotpot
+Madalena,Landon,24.5,2/11/19,5:31,ramen
+Isra,Minju,7.22,2/11/19,6:29,gas
+Luoting,Matthew F,15.25,2/11/19,8:41,Ramen
+Elizabeth N,Jessica,29.1,02/11/19,9:5,T-shirt
+Kamel,Brandon,32.75,2/11/19,9:47,Patagonia Tee
+Vesper,Matthew L,12,2/11/19,10:22,popeyes
+Firat,Elizabeth M,100,2/11/19,12:27,Chromebook
+Elizabeth M,Matthew F,2.25,2/11/19,12:46,Gas for hiking trip
+Lawrence,Isra,16.1,2/11/19,19:12,pizza
+Minju,Isra,5,02/11/19,20:14,Meal plan swipe
+Elizabeth M,Luoting,23,2/12/19,1:34,Daiso
+Landon,Luoting,6.11,2/12/19,1:55,In-n-Out
+Lawrence,Jessica,7,2/12/19,6:15,batteries
+Elizabeth M,Sophia,27.6,2/12/19,6:58,Dinner
+Isra,Matthew F,44,2/12/19,11:6,coursereader
+Elizabeth M,Matthew C,3.25,2/12/19,14:29,Printing 
+Colleen,Kamel,42.1,02/12/19,15:37,gas
+Madalena,Lawrence,22.69,2/12/19,19:21,birthday present
+Isra,Elizabeth M,133.95,2/12/19,21:59,textbooks
+Vesper,Minju,6,2/12/19,22:3,meal swipe
+Brandon,Landon,23.89,2/12/19,22:42,Textbook
+Yeyubei,Jiapeng,12.6,2/12/19,22:56,Lunch at Sushi Stop
+Luoting,Matthew L,12.22,2/13/19,3:33,Phone charger
+Neng,Jason,5.99,2/13/19,5:33,hotdog
+Brandon,Lawrence,8.99,2/13/19,6:41,Fruit
+Xinyi,Dhruv,20,2/13/19,8:7,movie ticket
+Vesper,Nicholas,25,2/13/19,9:25,korean bbq
+Landon,Ellen,100.78,2/13/19,12:43,Concert Ticket
+Kamel,Calvin,35.5,2/13/19,19:57,Opera Tickets
+Kamel,Claire,10,2/13/19,21:40,Non-alcoholic Beer
+Yeyubei,Rohan,12,2/14/19,5:31,Ice cream and chips
+Jason,Nicholas,7,2/14/19,6:6,Haircut in the dorms
+Dhruv,Elizabeth M,6,2/14/19,9:18,dinner swipe
+Brandon,Luoting,34,2/14/19,14:39,Sushi
+Vesper,Nima,17,2/14/19,17:19,pizza & fried chicken
+Ellen,Claire,25,2/14/19,19:2,Claire paid for my train ticket
+Elizabeth N,Jiachen,3.5,02/14/19,21:28,Coffee
+Landon,Kyra,18.18,2/15/19,0:8,Project Supplies
+Colleen,Minju,4.23,02/15/19,0:31,Uber split
+Landon,Jason,5,2/15/19,1:13,Tennis Ball Can
+Brandon,Madalena,53.23,2/15/19,9:34,KBBQ
+Yeyubei,Elizabeth M,30.8,2/15/19,14:36,Dinner at Ami sushi
+Nicholas,Rohan,10,2/15/19,18:46,succulents
+Colleen,Jiachen,4.23,02/15/19,22:40,Uber split
+Madalena,Nicholas,12.5,2/16/19,10:52,train ticket
+Brandon,Matthew C,21.3,2/16/19,15:12,Shorts
+Elizabeth M,Calvin,24.5,2/16/19,15:33,Daiso
+Lawrence,Claire,14.2,2/16/19,18:2,Sour Patch Kids
+Neng,Jessica,7.55,2/16/19,21:34,Apples
+Brandon,Matthew F,12,2/17/19,12:7,Canvas
+Kamel,Colleen,4.75,2/17/19,12:43,ping pong balls
+Luoting,Jason,17.33,2/17/19,12:53,Tofu Stew
+Asami,Jiapeng,20.8,02/17/19,19:19,Koreab BBQ dinner
+Elizabeth N,Jiapeng,9.99,02/17/19,20:58,Smoothie
+Brandon,Matthew L,12.43,2/18/19,2:54,Shampoo
+Yeyubei,Colleen,113,2/18/19,4:3,Concert ticket
+Yeyubei,Elizabeth N,66,2/18/19,4:12,Los Angeles museum tickets
+Kamel,Dhruv,3.99,2/18/19,4:55,solo cups
+Jessica,Hao,3.5,2/18/19,5:53,uber 
+Sophia,Matthew L,12.5,2/18/19,9:24,Movie Ticket
+Firat,Elizabeth N,55,2/18/19,11:6,Sushi
+Jessica,Sophia,6.5,2/18/19,15:56,jamba juice
+Jessica,Elizabeth N,4.75,2/18/19,18:36,round cotton pads
+Dhruv,Elizabeth N,12,2/18/19,21:33,postmates
+Madalena,Dhruv,7.3,2/18/19,22:10,card and flowers
+Dhruv,Asami,13,2/19/19,0:55,uber to museum
+Asami,Kyra,8,02/19/19,1:34,Cable Car fare
+Asami,Kamel,170.86,02/19/19,3:41,Flight Ticket to San Francisco
+Neng,Jiachen,2.89,2/19/19,4:14,Orange Juice
+Asami,Lawrence,63.35,02/19/19,16:1,Alcatraz Island tour ticket
+Luoting,Jessica,9.99,2/19/19,16:1,Cheese cake
+Asami,Jihye,231.73,02/19/19,19:6,Hotel Room Charge in San Francisco
+Calvin,Nicholas,100,2/19/19,20:12,Fur coat
+Asami,Landon,5,02/19/19,21:32,Coit Tower Enternce fee
+Yeyubei,Ernest,80,2/19/19,22:27,Ted talk tickets
+Ellen,Dhruv,5,2/20/19,3:52,Gas reimbursment
+Elizabeth N,Jihye,1.82,02/20/19,8:28,Donut
+Madalena,Minju,13.25,2/20/19,9:55,spaghetti dinner
+Luoting,Madalena,10.22,2/20/19,10:38,Uber
+Lawrence,Rohan,20.3,02/20/19,10:50,cookies
+Asami,Madalena,26.8,02/20/19,13:23,Bike Rental fee
+Nicholas,Tiffany,8,2/20/19,13:41,pack of staples
+Asami,Luoting,50.5,02/20/19,15:36,Sausalito Tour ticket
+Firat,Ellen,43,2/20/19,19:29,K-BBQ
+Xinyi,Brandon,25,2/21/19,16:33,sunglasses
+Jiachen,Claire,122,2/22/19,3:46,makeup
+Xinyi,Elizabeth M,24,2/22/19,8:10,sushi
+Jiachen,Hao,41,2/22/19,8:22,Video Games
+Jiachen,Calvin,54,2/22/19,8:23,Video Games
+Luoting,Isra,4.5,2/22/19,9:27,Coffee
+Jiachen,Colleen,45,2/22/19,9:30,textbook
+Jiachen,Brandon,43,2/22/19,11:52,Shoes
+Yeyubei,Dhruv,52,2/22/19,15:10,Electric bill
+Firat,Isra,28,2/22/19,15:28,Jeans
+Isra,Landon,19,2/22/19,15:58,groceries
+Jiachen,Alexander,23,2/22/19,18:13,Lyft
+Yeyubei,Alexander,22,2/22/19,19:23,Gas bill
+Jiachen,Asami,23,2/22/19,22:44,Lyft
+Neng,Jiapeng,2.45,2/22/19,23:17, Boba tea
+Yeyubei,Isra,22,2/23/19,6:52,Lunch at McDonald's
+Kamel,Jiachen,5.43,2/23/19,10:38,Falafel
+Nicholas,Kyra,5.5,2/23/19,15:17,Starbucks
+Elizabeth N,Kamel,5.59,02/23/19,16:25,Movie rental
+Kamel,Elizabeth M,7.24,2/23/19,17:35,gas
+Ellen,Elizabeth M,15,2/23/19,22:19,Elizabeth M overpaid rent
+Landon,Nicholas,5.33,2/24/19,1:55,Case of Water
+Jason,Nima,45,2/24/19,11:19,Gas for roadtrip
+Xinyi,Colleen,13,2/25/19,4:23,earrings
+Isra,Claire,69.75,2/25/19,7:41,concert tix
+Elizabeth M,Hao,12.7,2/25/19,8:59,Lunch at Ackerman
+Elizabeth M,Madalena,7.34,2/25/19,12:51,Nijinya supermarket 
+Neng,Jihye,200,2/25/19,20:47,Basketball ticket
+Alexander,Luoting,19.99,02/25/19,22:12,Game from Steam
+Elizabeth M,Elizabeth N,8.35,2/25/19,23:45,Movie tickets
+Elizabeth N,Kyra,11,02/26/19,7:44,Uber XL
+Ernest,Jiapeng,8.92,02/26/19,11:35,Pizza and coke
+Minju,Claire,5,02/26/19,11:51,National park entrance fee
+Minju,Matthew F,8.2,02/26/19,13:17,Split Uber fare
+Minju,Matthew C,11.2,02/26/19,14:23,Split Uber fare
+Ernest,Kamel,12,02/26/19,21:30,Group T-shirt cost
+Minju,Calvin,88.2,02/26/19,21:57,Levi's Jeans
+Firat,Lawrence,7,2/27/19,3:51,In-n-Out
+Firat,Jason,78,2/27/19,4:32,AYCE Sushi
+Nicholas,Nima,2,2/27/19,4:48,gum
+Xinyi,Jihye,13,2/27/19,6:38,hotpot
+Madalena,Isra,12,2/27/19,6:43,crepes
+Lawrence,Xinyi,12.3,2/27/19,7:1,boba
+Jiachen,Elizabeth M,12,2/27/19,8:54,Panda Express
+Asami,Matthew C,6.6,02/27/19,8:58,Mattew paid for my snacks and water at UCLA store
+Jiachen,Elizabeth N,66,2/27/19,10:21,Video Games
+Jiachen,Dhruv,23,2/27/19,11:39,dinner
+Dhruv,Brandon,6.29,2/28/19,0:5,pizza
+Sophia,Calvin,23.5,2/28/19,1:40,Postmates
+Minju,Kyra,644.8,02/28/19,2:33,Camping car rent fee
+Yeyubei,Matthew F,7,2/28/19,8:6,Soy Sauce money
+Luoting,Jihye,7.5,2/28/19,9:12,Laundry
+Ellen,Elizabeth N,19.24,2/28/19,10:33,Elizabeth N paid for dinner in Santa Monica
+Neng,Kamel,75,2/28/19,17:43,baseball ticket
+Rohan,Jihye,12.3,2/30/19,4:17,Food at ackerman
+Alexander,Kyra,1.6,02/30/19,16:54,Got me some fries from In n out
+Luoting,Kamel,16.99,3/1/19,0:59,Mobile mouse
+Madalena,Matthew F,22.59,3/1/19,3:20,power bill
+Firat,Jessica,91,3/1/19,3:51,Bowling Night
+Minju,Matthew L,3.3,03/01/19,4:11,UCLA Store
+Sophia,Jiapeng,5.45,3/1/19,5:57,Starbucks
+Colleen,Madalena,11.25,03/01/19,6:25,wifi bill
+Ernest,Alexander,52,03/01/19,6:45,Alex paid the gym registration fee
+Minju,Colleen,15,03/01/19,6:48,Parking
+Elizabeth M,Kyra,2.25,3/1/19,7:20,Trader Joe's
+Madalena,Matthew C,26,3/1/19,9:35,gas and wifi
+Colleen,Lawrence,11.25,03/01/19,9:36,wifi bill
+Nicholas,Kyra,3,3/1/19,10:0,tea
+Rohan,Kamel,15.9,3/1/19,11:57,Seoul Tofu in sawtelle
+Madalena,Kamel,8.35,03/01/19,13:33,chipotle
+Colleen,Hao,29.6,03/01/19,18:36,electric bill
+Colleen,Ellen,23.5,03/01/19,18:44,water bill
+Elizabeth N,Landon,19.3,03/01/19,21:55,Groceries
+Luoting,Nima,18.81,3/2/19,12:4,Katsu curry
+Kamel,Ellen,6.25,3/2/19,13:12,Jamba Juice
+Kamel,Elizabeth N,5.75,3/2/19,14:53,Boba
+Colleen,Ernest,17.2,03/02/19,15:19,ramen
+Madalena,Jihye,5,03/02/19,16:46,raffle ticket
+Brandon,Jiachen,5,3/2/19,18:36,Donuts
+Rohan,Kyra,88.2,3/2/19,19:16,Concert ticket for flume
+Dhruv,Alexander,6.5,3/2/19,19:43,split netflix
+Landon,Jiapeng,2,3/2/19,20:30,Gum
+Isra,Brandon,4.54,3/2/19,20:53,tacos
+Yeyubei,Brandon,4,3/2/19,22:35,Candy at school shop
+Yeyubei,Madalena,12,3/2/19,23:23,Uber home
+Alexander,Matthew F,6.76,03/03/19,3:59,12 pack of Hershey bar from Amazon
+Brandon,Jiapeng,7,3/3/19,6:34,Bagels
+Alexander,Matthew C,6.76,03/03/19,9:32,12 pack of Hershey bar from Amazon
+Rohan,Landon,5,3/3/19,13:41,boba!
+Landon,Jessica,10,3/3/19,14:37,Computer Mouse
+Neng,Kyra,30.5,3/3/19,18:50,Ralphs
+Firat,Jiachen,27,3/3/19,19:8,Lyft
+Xinyi,Nicholas,6.2,3/3/19,20:4,uber
+Alexander,Matthew L,6.76,03/03/19,23:8,12 pack of Hershey bar from Amazon
+Isra,Jason,1.5,3/3/19,23:48,quarters
+Xinyi,Alexander,7.1,3/4/19,1:21,lyft
+Alexander,Nicholas,1.19,03/04/19,4:2,Slurpee from 7-11
+Yeyubei,Claire,8,3/4/19,5:5,Pizza and chips
+Ellen,Vesper,4.32,3/4/19,6:32,Vesper paid for my ice cream
+Kamel,Isra,40.25,3/4/19,10:14,LA Philharmonic
+Colleen,Xinyi,30.36,03/04/19,13:21,grocery
+Elizabeth N,Lawrence,8,03/04/19,15:22,New socks
+Brandon,Jihye,7.3,3/4/19,16:49,Uber ride
+Rohan,Lawrence,15,3/4/19,19:26,T-shirt for club
+Lawrence,Kyra,26.5,03/05/19,0:45,play
+Elizabeth M,Jihye,3.25,3/5/19,3:29,FIFA 19
+Ellen,Isra,56.29,3/5/19,4:17,Isra ordered some Amazon items for me
+Landon,Isra,16.36,3/5/19,6:40,Hamster Wheel
+Rohan,Luoting,23.4,3/5/19,9:46,Buying cousereader
+Jiapeng,Lawrence,21,3/5/19,12:4,camping fee
+Kamel,Jessica,12.75,3/5/19,13:11,Swipe
+Brandon,Kamel,7.34,3/5/19,16:38,Printing
+Lawrence,Colleen,12.8,3/5/19,19:2,Phone Case
+Madalena,Rohan,20.9,3/5/19,21:2,dinner
+Xinyi,Asami,20,3/5/19,21:45,tie
+Kamel,Jason,2.25,3/5/19,21:50,Diddy Reese
+Neng,Landon,15,3/6/19,1:10,Movie ticket
+Jiapeng,Luoting,21.8,3/6/19,9:39,ice cream
+Rohan,Madalena,75.1,3/6/19,10:14,splitting piano cost
+Ellen,Jason,5.21,3/6/19,10:36,Jason paid for Starbucks
+Brandon,Kyra,23.33,3/6/19,14:5,Textbook
+Kamel,Jiapeng,8.99,3/7/19,1:8,pancakes
+Rohan,Matthew C,150,3/7/19,10:56,buying shoes
+Lawrence,Kamel,6.2,03/07/19,14:38,target
+Colleen,Matthew C,7.65,03/07/19,19:13,lunch
+Jiapeng,Madalena,14.2,3/7/19,23:25,Uber
+Elizabeth N,Luoting,6.98,03/07/19,23:38,Toilet paper
+Yeyubei,Landon,18,3/8/19,3:0,Gas for roadtrip
+Rohan,Matthew F,24.4,3/8/19,3:27,haircut
+Nicholas,Kamel,7.5,3/8/19,5:31,bought me In-N-Out
+Nicholas,Matthew F,11,3/8/19,7:50,movie ticket
+Sophia,Kamel,33,3/8/19,8:56,lyft split
+Jiapeng,Matthew C,7.2,3/8/19,10:28,ice cream
+Kamel,Jihye,30.75,3/8/19,10:40,FIFA 19
+Sophia,Minju,12.5,3/8/19,16:25,Movie Ticket
+Elizabeth M,Kamel,7.99,3/9/19,0:51,Netflix Subscription 
+Landon,Jiachen,35,3/9/19,1:58,Cake
+Jiapeng,Matthew F,11.1,3/9/19,5:23,Uber
+Elizabeth M,Nima,58.8,3/9/19,9:36,Sephora
+Neng,Lawrence,2.99,3/9/19,12:12,Coffee
+Minju,Dhruv,22.4,03/09/19,13:0,Sour patch kids jumbo
+Ernest,Asami,12.44,03/09/19,14:15,Lunch at In-n-out
+Dhruv,Hao,3.5,3/9/19,14:15,split hulu
+Minju,Xinyi,18,03/09/19,14:39,UCLA Store
+Isra,Kyra,3.33,3/9/19,15:12,coffee
+Rohan,Matthew L,11.22,3/9/19,15:28,uber to dtla
+Yeyubei,Luoting,11,3/9/19,18:40,Roasted chicken
+Firat,Jiapeng,93,3/10/19,1:4,Fitness Pass
+Elizabeth N,Madalena,14.41,03/10/19,1:5,Rabbit food
+Luoting,Minju,17.68,3/10/19,3:38,Movies
+Rohan,Xinyi,14.23,3/10/19,4:0,uber to santa monica
+Lawrence,Madalena,50,03/10/19,5:27,birthday party expense
+Nicholas,Isra,20,3/10/19,5:49,new bath mat
+Elizabeth M,Lawrence,20.99,3/10/19,10:47,Breakfast at Denny's
+Landon,Madalena,6.33,3/10/19,10:53,Birthday Candles
+Madalena,Jessica,5.15,3/10/19,14:9,samosas
+Jiapeng,Matthew L,5,3/10/19,15:23,chocolate
+Nicholas,Jihye,5,3/10/19,16:49,fish food
+Colleen,Sophia,12.32,03/10/19,18:50,lunch
+Xinyi,Lawrence,4.3,3/10/19,21:11,coffee
+Yeyubei,Nima,45,3/11/19,1:22,Haircut money
+Dhruv,Sophia,80,3/11/19,6:29,shoes
+Alexander,Xinji,16.49,03/11/19,7:9,blu-rays
+Ellen,Jessica,150,3/11/19,12:15,Jessica paid for Disneyland ticket
+Jiapeng,Minju,25.8,3/11/19,13:50,hot pot
+Sophia,Nicholas,5.45,3/11/19,15:2,Starbucks
+Nicholas,Ellen,11.2,3/11/19,16:14,pizza
+Rohan,Nicholas,5,3/11/19,16:37,coffee
+Alexander,Jason,45,03/12/19,1:51,Bruin Statue from Gift Shop
+Kamel,Matthew F,11.99,3/12/19,5:41,Netflix Subscription 
+Alexander,Elizabeth M,4.97,03/12/19,6:47,Bought Gorilla Tape
+Sophia,Jihye,8.2,3/12/19,8:17,Lyft split
+Nicholas,Ernest,4.5,3/12/19,8:40,toothpaste
+Luoting,Nicholas,8.51,3/12/19,11:22,Greenhouse
+Jessica,Ernest,12.5,3/12/19,11:43,chicken salad
+Neng,Luoting,5.99,3/12/19,12:29,Breakfast
+Lawrence,Dhruv,16.3,3/12/19,13:44,Breakfast
+Alexander,Elizabeth N,12.73,03/12/19,20:34,Bought WD40
+Kamel,Matthew L,21.99,3/12/19,20:45,Trader Joe's
+Jiapeng,Nicholas,18.7,3/12/19,23:53,desk
+Sophia,Hao,0.3,3/13/19,4:21,Scantron
+Jiapeng,Nima,3,3/13/19,8:1,candy
+Landon,Vesper,19.32,3/13/19,9:15,Basketball
+Elizabeth N,Matthew C,6,03/13/19,17:3,Fruit cup
+Madalena,Matthew L,6.1,3/13/19,17:36,T-shirt
+Asami,Matthew F,3.5,03/14/19,0:1,Iced Latte from Peet's
+Isra,Rohan,2.99,3/14/19,1:51,latte
+Madalena,Kyra,17.8,03/14/19,4:12,groceries
+Elizabeth M,Matthew L,20.99,3/14/19,8:33,Shopping
+Xinyi,Luoting,7,3/14/19,8:57,Breakfast
+Landon,Dhruv,9.86,3/14/19,17:8,Pie
+Calvin,Madalena,10,3/14/19,18:4,Trojans
+Colleen,Asami,4.82,03/14/19,23:0,boba
+Asami,Matthew L,8.5,03/14/19,23:11,Lunch at In-n-out
+Alexander,Kamel,5,03/15/19,0:8,helped pay for supplies
+Alexander,Asami,45,03/15/19,2:23,Gnome from gift shop
+Neng,Madalena,10,3/15/19,3:5,Swipe
+Alexander,Rohan,10.44,03/15/19,3:39,college ruled paper
+Colleen,Jason,6.5,03/15/19,4:32,pizza
+Ellen,Jiachen,11.22,3/15/19,5:7,split uber fare
+Yeyubei,Nicholas,22,3/15/19,7:1,Ubereats for pizza and coke
+Firat,Jihye,41,3/15/19,9:57,Shoes
+Alexander,Minju,3,03/15/19,10:21,Cash for SEAS cafe
+Alexander,Brandon,9,03/15/19,10:40,UCLA mug from gift shop
+Xinyi,Elizabeth N,5,3/15/19,14:39,metro ticket
+Dhruv,Colleen,3.2,3/15/19,17:24,Spotify 
+Luoting,Vesper,30.42,3/15/19,17:46,Boiling crab
+Elizabeth M,Ellen,24.5,3/15/19,21:7,Boiling Point + Gas
+Elizabeth N,Matthew F,12.34,03/16/19,0:23,Bike rental
+Colleen,Claire,5,03/16/19,3:55,dinner swipe
+Dhruv,Claire,45,3/16/19,5:21,sweatshirt
+Jessica,Alexander,5,3/16/19,6:56,coffee
+Yeyubei,Minju,19,3/16/19,7:27,Lunch at McDonald's
+Alexander,Colleen,9,03/16/19,8:57,UCLA mug from gift shop
+Jessica,Jiapeng,5.5,3/16/19,9:52,coffee
+Ellen,Jiapeng,14.21,3/16/19,18:5,split uber to LAX
+Colleen,Dhruv,5,03/16/19,22:28,dinner swipe
+Colleen,Elizabeth N,5,03/16/19,22:49,dinner swipe
+Asami,Minju,10.6,03/17/19,2:12,Lunch at MacDonald's
+Landon,Jihye,19.12,3/17/19,4:47,Green Shirt
+Landon,Ernest,15.91,3/17/19,8:26,Sharpies
+Luoting,Tiffany,6.8,3/17/19,18:18,Dim sum
+Xinyi,Calvin,5,3/17/19,19:24,milk
+Alexander,Dhruv,20,03/17/19,21:49,some gas
+Isra,Jiapeng,6.57,3/18/19,0:35,dayquil
+Xinyi,Claire,6,3/18/19,0:48,dinner swipe
+Neng,Matthew C,8.88,3/18/19,0:49,Uber
+Isra,Elizabeth N,4.5,3/18/19,8:56,chips and salsa
+Nicholas,Colleen,5,3/18/19,14:1,swiped into dining hall
+Ellen,Jihye,4.55,3/18/19,17:14,pizza
+Jessica,Asami,4,3/18/19,22:4,uber
+Xinyi,Ellen,7,3/19/19,0:27,cake
+Ellen,Kamel,1,3/19/19,6:44,Kamel paid my bus fare
+Madalena,Tiffany,2,3/19/19,7:47,cookies
+Sophia,Dhruv,30.33,3/19/19,10:10,Gas 
+Elizabeth N,Matthew L,11.16,03/19/19,12:26,Flowers
+Firat,Kamel,38,3/19/19,13:15,Video Game
+Alexander,Hao,9.99,03/19/19,17:48,Box of chewing gum
+Sophia,Jiachen,300,3/20/19,1:16,Used Mac Book
+Lawrence,Matthew C,7.4,03/20/19,3:20,dinner swipe
+Nicholas,Jiachen,0.5,3/20/19,3:23,cheap sunglasses
+Lawrence,Nima,27.2,03/20/19,10:21,Notebook
+Elizabeth M,Xinyi,4.6,03/20/19,10:39,Boba
+Ellen,Ernest,5,3/20/19,15:44,gas reimbursment
+Nicholas,Hao,8.29,3/20/19,16:39,split uber
+Sophia,Alexander,12,3/20/19,17:50,Meal plan swipe
+Sophia,Asami,12,3/20/19,22:10,Meal plan swipe
+Luoting,Rohan,2.5,3/20/19,23:29,Printing
+Alexander,Jiapeng,8.99,03/20/19,23:30,Basic Netflix Subcription for a month
+Sophia,Luoting,11,3/21/19,0:11,Breakfast Meal Swipe
+Neng,Matthew F,12.99,3/21/19,1:57,Pizza
+Jessica,Calvin,16,3/21/19,10:30,dim sum
+Jessica,Brandon,4.5,3/21/19,10:44,boba
+Lawrence,Tiffany,20,3/21/19,12:59,Uber fare split
+Sophia,Brandon,12,3/21/19,16:57,Meal plan swipe
+Firat,Kyra,14,3/22/19,5:6,Lyft
+Luoting,Alexander,5.6,3/22/19,6:35,Pizza
+Xinyi,Kyra,3.6,3/22/19,7:23,youtube premium
+Elizabeth N,Minju,8.59,03/22/19,11:35,Pizza
+Lawrence,Calvin,22.8,3/22/19,11:38,Ralphs
+Yeyubei,Lawrence,22.6,3/22/19,15:8,Shopping at Ralphs
+Isra,Dhruv,9.95,3/22/19,17:18,infomercial
+Jessica,Claire,6,3/22/19,19:42,uber
+Jessica,Colleen,27,3/22/19,22:9,eyeshadow palette
+Minju,Ellen,24.4,03/23/19,0:29,Textbook split
+Firat,Landon,9,3/23/19,3:48,Panda Express
+Sophia,Colleen,90,3/23/19,6:35,Airplane Flight
+Brandon,Nicholas,77.78,3/23/19,11:27,Presents
+Ellen,Hao,210.92,3/23/19,12:51,flight to San Francisco
+Colleen,Tiffany,14.99,03/23/19,18:9,movie ticket
+Colleen,Luoting,14.99,03/23/19,18:15,movie ticket
+Isra,Madalena,17.32,3/23/19,19:0,postmates
+Minju,Tiffany,12.3,03/23/19,19:54,Split Uber fare
+Minju,Rohan,61,03/23/19,22:50,Groceries
+Jessica,Isra,5.5,3/24/19,0:15,boba
+Jessica,Ellen,5.5,3/24/19,2:1,boba
+Jessica,Elizabeth M,3.23,3/24/19,6:52,lyft
+Brandon,Nima,1.23,3/24/19,8:24,Uber
+Colleen,Vesper,25.06,03/24/19,15:55,brunch
+Lawrence,Landon,4.9,03/24/19,19:4,cooking classes
+Jessica,Kamel,8.6,3/24/19,19:7,portos
+Colleen,Rohan,25.06,03/24/19,22:33,brunch
+Neng,Matthew L,7.99,3/24/19,23:44,tacos
+Ellen,Alexander,1,3/25/19,2:38,Alexander bought me blue books
+Brandon,Rohan,1.45,3/25/19,9:33,Gift for sibling
+Minju,Nicholas,27.6,03/25/19,11:5,UCLA Store
+Elizabeth N,Nicholas,1.5,03/25/19,16:25,Bus fare
+Jessica,Kyra,6,3/25/19,17:19,bplate swipe
+Minju,Elizabeth M,75.1,03/25/19,17:23,Hotel room charge
+Isra,Asami,15.33,3/25/19,20:24,lyft
+Ernest,Jihye,75.99,03/25/19,21:58,Lakers game ticket
+Jessica,Landon,4.34,3/26/19,0:28,uber
+Brandon,Sophia,5.32,3/26/19,8:49,Milk
+Madalena,Ellen,63.4,3/26/19,10:40,airbnb
+Jessica,Lawrence,11,3/26/19,12:2,movie ticket
+Lawrence,Vesper,17,3/26/19,20:7,Parking
+Colleen,Matthew L,5.25,03/26/19,22:32,boba
+Luoting,Ernest,16.56,3/27/19,0:51,Wolfgang
+Brandon,Tiffany,3.33,3/27/19,5:14,Eggs
+Neng,Minju,19.99,3/27/19,10:16,Noodle
+Nicholas,Luoting,2,3/28/19,2:50,pencil lead
+Elizabeth N,Nima,10.97,03/28/19,8:59,Chick fil a
+Brandon,Vesper,7.65,3/28/19,11:56,Cookies
+Lawrence,Matthew L,27.6,03/28/19,13:32,snacks
+Sophia,Matthew C,15.99,3/28/19,15:22,Postmates
+Nicholas,Xinyi,4,3/28/19,15:54,notebook
+Madalena,Claire,15,3/28/19,18:37,play tickets
+Asami,Nicholas,20.4,03/28/19,19:56,Chinese food delivery from UberEats App
+Brandon,Xinyi,8.44,3/29/19,0:43,In n Out Meal
+Landon,Elizabeth M,13.21,3/29/19,7:50,Poké Bowl
+Jiachen,Ellen,44,3/29/19,9:45,brunch
+Jiachen,Jason,55,3/29/19,11:17,Video Games
+Nicholas,Jason,3,3/29/19,13:19,milk
+Landon,Xinyi,21.92,3/29/19,16:27,Olive Garden
+Madalena,Nima,8.83,3/29/19,17:1,bowling
+Firat,Luoting,11,3/29/19,19:8,Carl's Jr
+Jiachen,Isra,77,3/29/19,23:51,concert ticket
+Luoting,Sophia,21.7,3/30/19,0:25,Sephora
+Landon,Kamel,60.28,3/30/19,7:21,Copy of Yoshi's Crafted World
+Neng,Nicholas,125,3/30/19,9:20,Textbook
+Matthew L,Alexander,2,3/31/19,2:40,bought gum
+Ellen,Asami,15,3/31/19,2:44,tutoring
+Matthew L,Brandon,13,3/31/19,3:54,carls jr
+Jason,Rohan,58.28,3/31/19,4:25,Concert tickets
+Elizabeth N,Rohan,20,03/31/19,6:46,Admission fee
+Madalena,Calvin,5.25,3/31/19,8:37,ice cream
+Jason,Tiffany,5,3/31/19,10:42,Lost bet on A's game
+Jason,Vesper,10,3/31/19,12:7,Lost bet on Raider's game
+Matthew L,Ernest,13.5,3/31/19,14:28,bought food for me
+Matthew L,Asami,45,3/31/19,14:47,UCLA t shirt
+Matthew L,Hao,3,3/31/19,15:20,bought a pencil
+Sophia,Jessica,12.5,3/31/19,17:20,Movie Ticket
+Landon,Sophia,25,3/31/19,17:22,Textbook Rental
+Sophia,Landon,120,3/31/19,17:23,Disneyland ticket
+Sophia,Isra,60,3/31/19,20:15,Textbook
+Sophia,Claire,15.89,3/31/19,20:20,Lyft split
+Jason,Sophia,15,3/31/19,21:26,Lost bet on Warriors game
+Jason,Xinyi,2,3/31/19,21:26,Lost bet on UCLA basketball game
+Nicholas,Madalena,11.13,3/31/19,23:30,apartment utilities
+Colleen,Matthew F,4.21,03/31/19,23:43,coffee
+Rohan,Nima,167.9,04/01/19,0:17,buying clothes at wasteland
+Asami,Nima,20,04/01/19,0:25,Movie ticket
+Asami,Rohan,6.5,04/01/19,2:15,Popcorn and coke for movie
+Sophia,Ernest,70,4/1/19,2:59,Textbook
+Jihye,Ernest,9,4/1/19,3:31,Lyft split
+Jiachen,Jiapeng,43.6,4/1/19,5:11,Ralphs
+Luoting,Xinyi,22.1,4/1/19,5:58,BBQ Chicken
+Nicholas,Matthew L,3,4/1/19,6:36,water bottle
+Sophia,Ellen,5.45,4/1/19,7:21,Starbucks
+Yeyubei,Jason,19,4/1/19,8:27,Chinese food
+Xinyi,Tiffany,10,4/1/19,9:3,sandwitch
+Alexander,Ernest,47.67,04/01/19,9:40,python textbook savings
+Sophia,Nima,45.6,4/1/19,10:15,Gas
+Jiachen,Jessica,67,4/1/19,10:20,skincare
+Sophia,Elizabeth M,800,4/1/19,11:24,Rent
+Jihye,Hao,12,4/1/19,11:33,Pizza and coke
+Firat,Madalena,143,4/1/19,13:0,Nintendo 3DS
+Xinyi,Jason,26,4/1/19,13:52,haircut
+Alexander,Lawrence,1.75,04/01/19,14:13,Bus Fare
+Sophia,Kyra,45,4/1/19,15:37,concert ticket
+Elizabeth M,Rohan,100,4/1/19,17:20,April Parking
+Matthew L,Dhruv,3,4/1/19,18:11,parking validation
+Madalena,Colleen,35,4/1/19,18:11,fitness pass
+Minju,Nima,17.1,04/01/19,18:52,LACMA ticket
+Matthew L,Colleen,12,4/1/19,19:31,bought hat
+Minju,Elizabeth N,75.1,04/01/19,19:40,Hotel room charge
+Matthew L,Calvin,12.4,4/1/19,19:55,in n out burger
+Matthew L,Claire,32,4/1/19,20:40,bought me shoes
+Sophia,Matthew F,5,4/1/19,21:34,Ice Cream
+Isra,Colleen,30,4/1/19,21:59,pranks
+Madalena,Sophia,25,4/1/19,23:6,parking
+Elizabeth M,Landon,11.99,4/1/19,23:36,H Mart
+Alexander,Calvin,5,04/02/19,1:5,5 dollar slice pizza
+Matthew L,Isra,17,4/2/19,1:56,chipotle
+Matthew L,Jiapeng,9,4/2/19,2:49,dining hall
+Matthew L,Kyra,7.6,4/2/19,7:6,subway
+Sophia,Lawrence,5.45,4/2/19,9:39,Starbucks
+Jihye,Kamel,4.5,4/2/19,11:18,Starbucks
+Jihye,Kyra,110,4/2/19,11:48,Airplane Flight
+Matthew L,Jason,3.5,4/2/19,11:54,bought eraser
+Luoting,Hao,40.2,4/2/19,12:9,Hotpot
+Matthew L,Jiachen,8,4/2/19,13:12,movie ticket
+Jessica,Luoting,10.75,4/2/19,13:20,ramen
+Yeyubei,Jihye,11.6,4/2/19,13:29,Lunch swipe
+Matthew L,Kamel,6,4/2/19,16:25,subway
+Matthew L,Ellen,1,4/2/19,18:4,uber
+Matthew L,Elizabeth M,2,4/2/19,18:26,uber
+Matthew L,Elizabeth N,1,4/2/19,18:27,lyft
+Rohan,Minju,195.5,04/02/19,18:37,buying clothes online
+Jihye,Alexander,13,4/2/19,18:53,Movie Ticket
+Minju,Jiapeng,195.5,04/02/19,19:26,Universal Studio ticket
+Jessica,Matthew L,7.5,4/2/19,20:56,new pens
+Alexander,Sophia,6.8,04/02/19,21:29,Panda Express
+Matthew L,Jihye,10.3,4/2/19,21:46,groceries
+Jihye,Landon,30,4/2/19,21:48,Postmates
+Minju,Sophia,11.7,04/02/19,21:55,Lime
+Matthew L,Jessica,6.4,4/2/19,22:39,jamba juice
+Jessica,Dhruv,15,4/2/19,22:55,coursereader
+Jessica,Madalena,9.75,4/3/19,0:11,pho
+Matthew L,Matthew C,2.3,4/3/19,0:26,candy
+Alexander,Nima,4.65,04/03/19,0:50,venti mocha from Starbucks
+Xinyi,Isra,25,4/3/19,1:46,cricket
+Jessica,Matthew C,30.5,4/3/19,2:32,ucla sweatshirt
+Jihye,Lawrence,15,4/3/19,4:59,Uber Eats
+Alexander,Jihye,4.15,04/03/19,5:2,grande mocha from Starbucks
+Sophia,Madalena,20,4/3/19,8:14,Dress
+Matthew L,Luoting,2,4/3/19,9:5,gum
+Dhruv,Ernest,5.2,4/3/19,10:9,uber to beach
+Matthew L,Landon,3.6,4/3/19,10:33,contact solution
+Sophia,Jason,200,4/3/19,13:0,Quarterly Parking Permit
+Rohan,Sophia,10.4,04/03/19,13:9,sip matcha
+Sophia,Elizabeth N,20,4/3/19,13:30,Birthday Gift
+Jihye,Luoting,25,4/3/19,15:5,LACMA ticket
+Matthew L,Matthew F,3,4/3/19,16:1,deck of playing cards
+Jessica,Jiachen,5,4/3/19,18:37,bplate swipe
+Matthew L,Madalena,91,4/3/19,18:44,boiling crab
+Alexander,Claire,3.45,04/03/19,20:2,tall mocha from Starbucks
+Isra,Sophia,4.39,4/3/19,22:10,froyo
+Alexander,Tiffany,7.75,04/03/19,22:19,Veggie Grill
+Matthew L,Lawrence,4.8,4/3/19,22:56,chapstick
+Madalena,Luoting,11.68,4/3/19,23:17,uber
+Matthew L,Nima,13,4/4/19,0:20,bought a game on steam
+Matthew L,Nicholas,43,4/4/19,1:21,boiling crab
+Asami,Sophia,0.5,04/04/19,5:38,Scantron from UCLA Store
+Jihye,Matthew F,5,4/4/19,7:12,UCLA Store
+Jihye,Matthew C,15,4/4/19,9:40,UCLA Store
+Alexander,Ellen,1.89,04/04/19,11:29,Taco Bell
+Isra,Kamel,22.75,4/4/19,12:41,brunch
+Rohan,Tiffany,30.5,04/04/19,16:28,Food at simpang asia
+Jihye,Matthew L,10.5,4/4/19,17:0,Lunch at In-n-out
+Matthew L,Minju,6.55,4/4/19,17:4,in n out burger
+Jihye,Madalena,10,4/4/19,17:59,UCLA Store
+Matthew L,Rohan,4.4,4/4/19,22:57,deodorant
+Jessica,Matthew F,35,4/5/19,1:55,nail salon 
+Jiachen,Kamel,56,4/5/19,2:23,Video Games
+Colleen,Jiapeng,1.7,04/05/19,4:10,gum
+Asami,Tiffany,89.99,04/05/19,8:10,Six Frags Season Pass
+Jiachen,Kyra,9,4/5/19,9:30,uber
+Colleen,Jessica,4.5,04/05/19,10:56,coffee
+Asami,Vesper,26.5,04/05/19,12:2,Lunch
+Madalena,Brandon,4.8,4/5/19,12:56,coffee
+Jiachen,Lawrence,23,4/5/19,13:37,skincare
+Alexander,Jessica,6.59,04/05/19,16:12,Jamba Juice
+Yeyubei,Kamel,44,4/5/19,16:12,Water bill
+Rohan,Vesper,100.2,04/05/19,16:45,new shoes
+Firat,Matthew L,88,4/5/19,16:55,Surfboard
+Firat,Matthew F,10,4/5/19,18:29,Panda Express
+Jihye,Minju,9,4/5/19,19:31,Lunch at MacDonald's
+Firat,Matthew C,290,4/5/19,20:33,Nintendo Switch
+Isra,Matthew C,13.11,4/5/19,21:49,wifi bill
+Jiachen,Jihye,45.8,4/5/19,22:29,skincare
+Yeyubei,Jiachen,2.5,4/5/19,22:57,bottled water
+Jiachen,Landon,34,4/5/19,23:58,Ralphs
+Jihye,Nicholas,12,4/6/19,2:7,Split Uber fare
+Jihye,Sophia,11,4/6/19,2:51,Pizza and coke
+Colleen,Brandon,14,04/06/19,3:2,dim sum
+Rohan,Alexander,14,04/06/19,5:45,uber to west hollywood
+Jihye,Vesper,12,4/6/19,6:27,Meal plan swipe
+Jihye,Rohan,15,4/6/19,6:58,Split Uber fare
+Jessica,Minju,50,4/6/19,7:54,eyelash perm
+Jihye,Tiffany,150,4/6/19,9:4,Airplane Flight
+Xinyi,Jessica,25,4/6/19,11:4,car rent
+Colleen,Nicholas,14,04/06/19,13:59,dim sum
+Jihye,Nima,13,4/6/19,15:52,Split Uber fare
+Jihye,Xinyi,12,4/6/19,19:51,Meal plan swipe
+Jessica,Nicholas,35,4/6/19,23:45,mario kart game
+Jihye,Calvin,30.5,4/7/19,0:2,UCLA Store
+Firat,Nima,900,4/7/19,0:13,Macbook Pro
+Jessica,Jihye,15,4/7/19,0:27,haircut
+Jihye,Jason,11,4/7/19,3:31,Lunch at In-n-out
+Jessica,Nima,5,4/7/19,6:40,spotify 
+Rohan,Asami,4,04/07/19,6:59,bird to class
+Firat,Nicholas,800,4/7/19,8:5,Computer Parts
+Jiachen,Madalena,57,4/7/19,11:18,textbook
+Firat,Minju,91,4/7/19,13:52,AYCE Buffet
+Jessica,Rohan,6,4/7/19,14:24,bplate swipe
+Jihye,Asami,10,4/7/19,15:20,Split Uber fare
+Jiachen,Luoting,54,4/7/19,16:30,Ralphs
+Jihye,Claire,25,4/7/19,16:33,UCLA Store
+Jessica,Jason,13.5,4/7/19,18:23,kbbq
+Elizabeth M,Asami,4.6,4/7/19,19:15,Gas
+Jihye,Brandon,8,4/7/19,20:16,UCLA Store
+Jihye,Colleen,25,4/7/19,22:56,Park entrance fee
+Jiachen,Nicholas,21,4/8/19,0:5,dim sum
+Rohan,Brandon,5.6,04/08/19,2:53,chickfila
+Firat,Sophia,87,4/8/19,5:29,Xbox One Controllers
+Jiachen,Matthew L,12,4/8/19,5:58,uber
+Jiachen,Matthew F,24,4/8/19,7:53,dim sum
+Madalena,Xinyi,15.1,4/8/19,14:28,groceries
+Yeyubei,Jessica,133.4,4/8/19,15:30,Shopping at Costco
+Jihye,Elizabeth N,6,4/8/19,15:42,Starbucks
+Jiachen,Matthew C,69,4/8/19,16:5,textbook
+Jihye,Elizabeth M,13,4/8/19,17:42,Movie Ticket
+Firat,Rohan,113,4/8/19,20:18,Video Games
+Jihye,Dhruv,15,4/8/19,21:2,Postmates
+Jihye,Ellen,4,4/8/19,21:38,Ice Cream
+Jiachen,Minju,34,4/8/19,23:34,Ralphs
+Rohan,Calvin,3.45,04/09/19,0:15,buying bruinwalk 85 degrees
+Jiachen,Rohan,67,4/9/19,2:47,dim sum
+Jiachen,Nima,333,4/9/19,4:19,flight ticket
+Firat,Vesper,112,4/9/19,8:4,Textbooks
+Jiachen,Sophia,23,4/9/19,8:14,brunch
+Firat,Xinyi,83,4/9/19,13:13,Basketball Shoes
+Lawrence,Luoting,27.1,04/09/19,15:27,bus ticket
+Lawrence,Minju,7.7,04/09/19,19:20,printing
+Firat,Tiffany,90,4/9/19,22:30,Comic Books
+Brandon,Calvin,10,4/10/19,1:22,Split Uber
+Yeyubei,Kyra,6,4/10/19,6:2,pizza at school
+Luoting,Asami,13.12,4/10/19,6:50,Gushi
+Rohan,Claire,2.56,04/10/19,12:34,samosas on bruinwalk
+Brandon,Claire,12,4/11/19,0:6,Boba and popcorn chicken
+Luoting,Calvin,5.24,4/11/19,12:20,Boba
+Lawrence,Matthew F,19.8,04/11/19,15:28,Basketball
+Elizabeth M,Dhruv,5.24,04/11/19,17:1,Uber ride
+Luoting,Brandon,3.5,4/12/19,5:23,Donut
+Brandon,Colleen,44,4/12/19,14:56,Ralphs
+Brandon,Dhruv,22.22,4/13/19,4:44,In n Out Meal
+Calvin,Jason,150,4/19/19,16:57,Oregano
+Calvin,Rohan,20,4/20/19,19:18,Laxatives
+Calvin,Luoting,1000,9/9/19,1:42,Iphone X
+Ellen,Colleen,16.31,2/18/29,4:29,Colleen paid for lunch at Cava

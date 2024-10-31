@@ -1,0 +1,145 @@
+hw.txt
+
+Name: Dhruv Chakraborty
+UID: 204-962-098
+Prof. Smallberg
+CS32 Winter19
+
+HOMEWORK 5
+
+(1)
+a.
+50
+	20
+		10
+			xx
+			15
+		40
+			30
+				25
+				38
+			xx
+	60
+		xx
+		70
+			65
+			80
+				72
+				xx
+
+b. (I'm assuming the values are separated by commas while being printed out)
+In-Order:
+	10, 15, 20, 25, 30, 38, 40, 50, 60, 65, 70, 72, 80
+Pre-Order:
+	50, 20, 10, 15, 40, 30, 25, 38, 60, 70, 65, 80, 72
+Post-Order:
+	15, 10, 25, 38, 30, 40, 20, 65, 72, 80, 70, 60, 50
+
+c.
+50
+	25
+		10
+			xx
+			15
+		40
+			38
+			xx
+	60
+		xx
+		70
+			65
+			80
+				72
+				xx
+
+
+(2)
+a.
+struct BTnode
+{
+	BTnode* leftChild;
+	BTnode* rightChild;
+	BTnode* parent;
+	int data;
+}
+
+b.
+Algorithm pseudocode:
+Input: int value to be inserted
+
+if tree is empty:
+	allocate new node with leftChild = rightChild = parent = nullptr and data = value (parent is nullptr since this node is root node)
+	point root pointer to this node and return
+else:
+	start at the root of the tree:
+	while (not done):
+		if value is equal to current node's data:
+			return i.e. we are done (since value already in tree, nothing to do)
+		else if value is less than current node's data:
+			if current node has a leftChild != nullptr:
+				set parent to current node
+				set current node to current node's leftChild
+			else (i.e. current node's leftChild is nullptr):
+				allocate new node, putting parent = current node, data = value, and leftChild = rightChild = nullptr
+				point current node's leftChild to newly created node
+		else (i.e. value is greater than current node's data:
+			if current node has a rightChild != nullptr:
+				set parent to current node
+				set current node to current node's rightChild
+			else (i.e. current node's rightChild is nullptr):
+				allocate new node, putting parent = current node, data = value, and leftChild = rightChild = nullptr
+				point current node's rightChild to newly created node
+
+
+
+(3)
+a.
+7
+	3
+		0
+		2
+	6
+		4
+		xx
+
+b.
+[7, 3, 6, 0, 2, 4]
+
+c.
+[6, 3, 4, 0, 2]
+
+
+(4)
+a. O(C + S)
+b. O(log(C) + S)
+c. O(log(C) + los(S))
+d. O(los(S)) average case
+   O(C*log(S)) worst case
+e. O(1) average case
+   O(C*S) worst case
+f. O(log(C) + S)
+g. O(S)
+h. O(C*log(S))
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

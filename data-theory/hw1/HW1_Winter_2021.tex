@@ -1,0 +1,117 @@
+\documentclass[10pt]{article}
+
+\input{../../bmacros}
+
+%Style section
+\setlength{\textheight}{10in}
+\setlength{\textwidth}{6.5in}
+\hoffset=-0.75in
+\voffset=-1in
+
+\begin{document}
+
+\noindent
+{Math 118 \hfill Homework Assignment 1 Winter 2021}
+%\vskip 0.1truein
+\bigskip
+\begin{quote}\emph{This is your first homework assignment. I strongly encourage you to typeset it using the LaTeX template provided. It is due by Friday, January 15th.} \\
+\end{quote}
+\hrulefill
+\vskip 0.1truein
+
+\begin{enumerate}
+\item Suppose that $A\in\mathbb{R}^{m\times n}$, $\bv\in\mathbb{R}^{n}$ and $B\in\mathbb{R}^{n\times r}$. Determine the number of floating point operations ({\em ie} additions and multiplications) required to compute $A\bv$ and $AB$. \\
+
+\item Let $\bv = [1,0,5,-3]^{\top}$ and $\bw = [-2,4,5,1]^{\top}$.
+\begin{enumerate}
+	\item Compute $\|\bv\|_1$, $\|\bw\|_{3}$ and $\|\bv\|_{\infty}$. \\
+	\item Verify that $\langle\bv,\bw\rangle \leq \|\bv\|_2\|\bw\|_2$ by computing both sides. \\
+\end{enumerate}
+
+\item This question will introduce you to three different ways of thinking about matrix multiplication. For all three parts, let $U\in\mathbb{R}^{m\times n}$, $V\in\mathbb{R}^{m\times r}$ and $W\in\mathbb{R}^{r\times n}$. By $\bu_i$ (respectively $\bv_i$ and $\bw_i$) I mean the $i$-th column of $U$ (respectively $V$ and $W$).
+\begin{enumerate}
+
+\item Show that $\displaystyle U^{\top}V = \left[\begin{matrix} \bu_{1}^{\top}\bv_1 & \bu_{1}^{\top}\bv_2 & \ldots & \bu_{1}^{\top}\bv_{r} \\ \vdots & \ddots & \ddots & \vdots \\ \bu_{n}^{\top}\bv_{1} & \bu_{n}^{\top}\bv_{2} & \ldots & \bu_{n}^{\top}\bv_{r
+} \end{matrix}\right]$ {\em (Recall that $\bu_{i}^{\top}\bv_j$ is the dot product between $\bu_i$ and $\bv_{j}$)} 
+
+\item Show that $\displaystyle UW^{\top} = \sum_{i=1}^{n}\bu_{i}\bw_{i}^{\top}$. \\
+
+\item Show that $U^{\top}V = [U^{\top}\bv_1, U^{\top}\bv_2,\ldots, U^{\top}\bv_{r}]$. \\
+\end{enumerate}
+
+{\em General Hint: For all three parts above, you have to show equality of two matrices. So, you probably want to work out the $(i,j)$-th entry of the left hand side, and the $(i,j)$-th entry of the right hand side, and show that they are equal.}   
+
+\item We say that a function $d: \mathbb{R}^{n}\times \mathbb{R}^{n} \to \mathbb{R}_{+}$ is a metric if:
+\begin{enumerate}
+	\item $d(\bu,\bv) = d(\bv,\bu)$ for all $\bu,\bv\in\mathbb{R}^{n}$. {\em (symmetry)}\\
+	\item $d(\bu,\bv) = 0$ if and only if $\bu = \bv$. {\em (definiteness)} \\
+	\item $d(\bu,\bw) \leq d(\bu,\bv) + d(\bv,\bw)$ for all $\bu,\bv,\bw\in\mathbb{R}^{n}$ {\em (triangle inequality)}. \\
+	
+	Show that if $\|\cdot\|$ is a norm on $\mathbb{R}^{n}$, then $d(\cdot,\cdot)$ defined by $d(\bu,\bv) = \|\bu - \bv\|$ is a metric on $\mathbb{R}^{n}$. 
+
+\end{enumerate}
+
+\item Prove that $\displaystyle \lim_{p\to\infty} \|\bv\|_{p} = \|\mathbf{v}\|_{\infty}$. Recall that $\|\cdot\|_{\infty}$ is the max-norm defined as $\|\mathbf{v}\|_{\infty} := \max_{i} |v_i|$. \\
+{\em This is a hard question, so let me start you off:}
+\begin{align*}
+\|\bv\|_{p} & = \left(\sum_{i=1}^{n}|v_i|^{p}\right)^{1/p} \quad \text{ Let } |v_{i^{*}}| = \max_{i} |v_i| \\
+	& = \left(|v_{i^{*}}|^{p}\left( 1 + \sum_{i\neq i^{*}}\frac{|v_i|^{p}}{|v_{i^{*}}|^{p}}\right)\right)^{1/p}
+\end{align*}
+
+\item Suppose that:
+$$
+A = LU \text{ where } L  = \left[\begin{matrix} 1 & 0 & 0 \\ \ell_{21} & 1 & 0 \\ \ell_{31} & \ell_{32} & 1 \end{matrix}\right] \text{ and } U = \left[\begin{matrix} u_{11} & u_{12} & u_{13} \\ 0 & u_{22} & u_{23} \\ 0 & 0 & u_{33} \end{matrix}\right]
+$$
+ Find an easy formula for the determinant $\det(A)$, in terms of the components of $L$ and $U$. {\em (Hint: you'll need the formula, valid for any matrices $B_1$ and $B_2$, $\det(B_1B_2) = \det(B_1)\det(B_2)$.}
+ 
+ \item In class we defined the condition number of an invertible square matrix as $\kappa(A) = \|A\|_2\|A^{-1}\|_2$. Assume in addition that $A$ is symmetric, so that $A$ is unitarily diagonalizable. In this question you'll show that $\kappa(A) = \frac{\lambda_{\max}(A)}{\lambda_{\min}(A)}$, where $\lambda_{\max}(\cdot)$ (resp. $\lambda_{\min}(\cdot)$) denotes the largest-in-magnitude (resp. smallest-in-magnitude) eigenvalue. 
+\begin{enumerate}
+	\item Show that $\|A\|_2 = \lambda_{\max}(A)$. {\em (Don't overthink this, it's essentially ``Special Case 1'' from slide 8 of Lecture 2)}. \\
+	
+	\item Show that if $\lambda_1,\ldots,\lambda_n$ are the eigenvalues of $A$ then $\lambda_1^{-1},\ldots, \lambda_{n}^{-1}$ are the eigenvalues of $A^{-1}$. \\
+	
+	\item Conclude that $\kappa(A) = \frac{\lambda_{\max}(A)}{\lambda_{\min}(A)}$
+
+\end{enumerate}
+
+\item Consider the problem $A\bx = \bb$ where:
+$$
+A = \left[\begin{matrix} 3 & 1 & 0 \\ 1 & 4 & 0 \\ 0 & 0 & \epsilon \end{matrix}\right] \quad \text{ and } \quad \bb = \left[\begin{matrix} 1 \\ 1 \\ 1 \end{matrix}\right]
+$$
+\begin{enumerate}
+	\item Compute the condition number of $A$, $\kappa(A)$. {\em Do this by using the results of Question 7} \\
+\end{enumerate}
+\item Consider the least squares problem $\displaystyle \bx^{*} = \argmin_{\bx\in\mathbb{R}^{4}} \|A\bx - \bb\|_{2}$ where $A$ and $\bb$ are given below. 
+\begin{align*}
+& A = \left[\begin{matrix} 0.7922 & 0.6787 & 0.7060 & 0.6948 \\ 0.9595 & 0.7577 & 0.0318 & 0.3171 \\ 0.6557 & 0.7431 & 0.2769 & 0.9502 \\ 0.0357 & 0.3922 & 0.0462 & 0.0344 \\ 0.8491 & 0.6555 & 0.0971 & 0.4387 \\ 0.9340 & 0.1712 & 0.8235 & 0.3816 \end{matrix} \right] \quad \bb = \left[\begin{matrix} 0.7655 \\ 0.7952 \\ 0.1869 \\ 0.4898 \\ 0.4456 \\ 0.6463 \end{matrix}\right] \\
+&  Q = \left[\begin{matrix} -0.4191 & -0.1861 & -0.5979 & -0.1311 & -0.2584 & -0.5901 \\ -0.5076 & -0.1321 & 0.5495 & -0.3017 & -0.5548 & 0.1553 \\ -0.3469 & -0.4172 & -0.1468 & 0.7373 & -0.0250 & 0.3739 \\ -0.0189 & -0.5331 & -0.2732 & -0.5822 & 0.3160 & 0.4494 \\ -0.4492 & -0.0950 & 0.3924 & 0.0215 & 0.7089 & -0.3637 \\ -0.4941 & 0.6933 & -0.3005 & -0.0938 & 0.1500 & 0.3919 \end{matrix}\right] \\
+&  R_1 = \left[\begin{matrix} -1.8902 & -1.3134 & -0.8595 & -1.1681 \\ 0 & -0.6892 & 0.2859 & -0.3632 \\ 0 & 0 & -0.6673 & -0.3327 \\ 0 & 0 & 0 & 0.4674 \end{matrix}\right]
+\end{align*}
+\begin{enumerate}
+	\item Find $\bx^{*}$ using the QR decomposition method (Use the $Q$ and $R$ given above, which are such that $A = QR$ where $R = \left[\begin{matrix} R_1 \\ 0 \end{matrix}\right]$.).Show your work. \\
+	
+	\item Check your work by using matlab or python to solve the least squares problem.
+\end{enumerate}
+
+
+\item Let $A\in\mathbb{R}^{m\times n}$. Show that $\|A\|_{F} = \sqrt{\sum_{i=1}^{n}\sigma_{i}(A)^{2}}$. You will need to use the fact that $\|\cdot\|_{F}$ is unitarily invariant: $\|UA\|_{F} = \|A\|_{F}$ and $\|AV\|_{F} = \|A\|_{F}$ for all unitary matrices $U\in\mathbb{R}^{m\times m}$ and $V\in\mathbb{R}^{n\times n}$. 
+
+\item Recall that $A^{(k)} = \sum_{i=1}^{k} \sigma_i\bu_{i}\bv_{i}^{\top}$ is the best rank $k$ approximation to $A$. Express the following quantities in terms of the singular values of $A$:
+\begin{enumerate}
+	\item $\|A_{k}\|_{F}$. \\
+	\item $\|A_{k}\|_{2}$. \\
+	\item $\|A - A_{k}\|_{F}$. \\
+	\item $\|A - A_{k}\|_{2}$. \\
+\end{enumerate}
+
+\item Compute the SVD of $\displaystyle A = \left[\begin{matrix} 1 & 0 \\ 2 & 7 \\ 3 & 5 \end{matrix}\right]$ by computing the eigenvalues and eigenvectors of $A^{\top}A$. Do this by hand and show your work. \\
+
+\item In class we used PCA to analyze the ``iris'' data set. In this question you will repeat the analysis for another classic machine learning data set, ``wine''. Instead of \begin{verbatim}iris = load_iris()\end{verbatim} use the command:
+\begin{verbatim}
+wine = load_wine()
+\end{verbatim}
+ in the Jupyter notebook from class. Make appropriate adjustments to the code from class, and attach a plot of the loadings on to the first two singular vectors of this data set. Color the data points to indicate which of the three classes each data point belongs to.
+
+
+\end{enumerate}
+\end{document}

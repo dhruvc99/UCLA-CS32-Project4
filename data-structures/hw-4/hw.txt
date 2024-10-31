@@ -1,0 +1,31 @@
+hw.txt
+
+Name: Dhruv Chakraborty
+UID: 204-962-098
+CS 32 Lec 2
+Prof. Smallberg
+
+*** HW #4 ***
+
+2. The given line i.e. the one inserting a Coord to a Coord set does not compile because the insert function calls the findFirstAndLast function, which compares Coords. Since 
+   we have not defined any comparison operator for Coords, this generates an error. Furthermore, insert also checks whether a duplicate is already present in the set, and we 
+   have not defined operator= for Coords either, leading to another error.	
+
+3(b) It is useful to visualize the file menu structure as a tree. If the path was not included, the only information available for us to print is each child and sub-child and 
+	 so on of the tree. The parent nodes and the root nodes etc. would be lost. Thus, we must include the path -- and specify the old path in path to print	the desired output, particularly if we were using recursion to implement our function (as we had to do for this problem).
+
+4(a) The time complexity of the given algorithm is O(N^3) because there are 3 nested loops that approximately N times each loop i.e. N*N*N = N^3.
+4(b) The time complexity remains O(N^3) since there are still 3 nested loops that could all run N times each. We can also see this since the time complexity is cN*N*N = cN^3 
+	 for some constant c, which is ignored in Big O notation.
+
+
+5(a) Unite's worst case time complexity is O(N^2). This happens when both s1 and s2 contain N items, but their intersection is the empty set. In this case, there's a for loop
+	 in Unite that can run N times. Furthermore, the insert function in the for loop calls the findFirstAndLeast function, which loops N times. Thus, we get a time complexity 
+	 of O(N^2).
+5(b) The time complexity of this function is O(N log N). To see this, let's break the function into it's component parts and find the time complexity of each part, adding them
+	 at then end to get the function's time complexity. Time time complexity of loading the data into the vector is clearly O(N). It is then given to us that the complexity of
+	 the sorting function is O(N log N). Following this, the complexity for both deleting the nodes and copying the unique items into the result is O(N). Thus, the complexity
+	 of the full function is O(3N + N log N) = O(N log N).
+5(c) The time complexity of this implementation is O(N). This is because the time complexity of everything upto the while loop is O(1) as there are no functions or loops.
+	 We further note that the time complexity of the while loop itself is O(N) and that the time complexity of the for loop is the same. Thus, the total time complexity is 
+	 O(N).

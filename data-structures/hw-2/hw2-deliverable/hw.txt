@@ -1,0 +1,39 @@
+CS32: Homework 2
+Name: Dhruv Chakraborty
+UID: 204-962-098
+
+2.
+The first 12 coordinates popped off by the stack are:
+(3, 5)
+(3, 6)
+(3, 4)
+(2, 4)
+(1, 4)
+(1, 3)
+(1, 2)
+(1, 1)
+(2, 1)
+(3, 3)
+(4, 5)
+(5, 5)
+
+4.
+The first 12 coordinates popped off by the queue are:
+(3, 5)
+(4, 5)
+(3, 4)
+(3, 6)
+(5, 5)
+(3, 3)
+(2, 4)
+(6, 5)
+(5, 4)
+(1, 4)
+(7, 5)
+(5, 3)
+
+Although both the algorithms successfully solve the maze, they differ significantly. Algorithm 1 is implemented using a stack, which is a LIFO (i.e. last in, first out) data
+structure. This means that the last object pushed into the stack is the one on the top and is hence the first one popped off the stack. This leads to agorithm 1 exploring each
+path of the maze in it's entirety prior to moving on, called depth-first search. On the other hand, Algorithm 2 is implemented using a queue, which is a FIFO (i.e. first in,
+first out) data structure. So, in the case of the queue, the first object pushed into the queue is the one on the front and hence the first one popped off the queue. This
+means that algorithm 2 continually explores all paths of the maze, jumping from one path to another constantly, called breadth-first search.

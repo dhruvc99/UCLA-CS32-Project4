@@ -1,0 +1,4 @@
+Amidala, Padme          E0010a     12000
+Kryze, Satine             E001     12000
+Mothma, Mon              E0981     10000
+Tano, Ahsoka            E0010b      1000

@@ -1,0 +1,13 @@
+report.txt
+
+Dhruv Chakraborty
+204-962-098
+
+1. I decided to use the interface provided to make my program. However, I made a few changes. In particular, note that Flame and Vomit and derived from a Projectile class
+to better follow objected oriented principles. Therefore, what my functions do is explained using the interface.
+
+2. I was not able to completely implement the Citizen and Zombies class. However, I implemented all the functions in StudentWorld that would be used by these classes in Actor.cpp and had a complete interface.
+
+3. A design assumption I made was setting the direction of Flames created by a Landmine to be up. I did not have to make any other major assumptions.
+
+4. I tested my classes as I build my program, ensuring there were no bugs in the implementations. For example, I was embarrasingly stuck for an hour as my Penelope object would not produce flames. This was apparently due to my iterator loop missing an it++ at the end.

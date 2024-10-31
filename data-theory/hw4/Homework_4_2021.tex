@@ -1,0 +1,63 @@
+\documentclass[10pt]{article}
+
+\input{../../bmacros}
+
+%Style section
+\setlength{\textheight}{10in}
+\setlength{\textwidth}{6.5in}
+\hoffset=-0.75in
+\voffset=-1in
+
+\usepackage{tkz-euclide}
+\usepackage{nopageno}
+\usepackage{tikz}
+
+%%%%%%%%%%%% Tikz commands for HMM
+\tikzstyle{state}=[shape=circle,draw=black!50,minimum size = 2cm,node distance = 5cm]
+\tikzstyle{observation}=[shape=rectangle,draw=black!50]
+\tikzstyle{lightedge}=[<-,dotted]
+\tikzstyle{mainstate}=[state,thick]
+\tikzstyle{mainedge}=[<-,thick]
+
+\begin{document}
+
+\noindent
+{Math 118 \hfill Homework Assignment 4 Winter 2021}
+%\vskip 0.1truein
+\bigskip
+\begin{quote}\emph{This is your fourth homework assignment. I strongly encourage you to typeset it using the LaTeX template provided. It is due by Friday, March 12th.} \\
+\end{quote}
+\hrulefill
+\vskip 0.1truein
+
+\begin{enumerate}
+
+\item Consider the following variant of the knapsack problem. Suppose that the Math 118 midterm consists of $5$ problems, worth $5$, $10$, $20$, $25$, $30$ and $35$ points respectively. However, the test is only out of $50$ points. You may attempt as many of the problems as you like, and your instructor will grade all of them and choose the subset of problems whose totals add up to less than or equal to $50$ giving you the best possible score.  Suppose you attempt all five questions. In what follows, $p_{i}$ represents the points achieved on the $i$-th question, while $t_i$ represents the total points available on the $i$-th question.
+$$
+p_1 = 4, t_1 = 5 \quad p_2 = 3, t_2 = 10 \quad p_3 = 17, t_3 = 20 \quad p_4 = 20, t_4 = 25 \quad p_5 = 30, t_5 = 35 
+$$
+Use dynamic programming to determine the optimal subset of questions, and your maximum achievable score. {\em (This is essentially the knapsack problem with $B = 50$, $s_i= t_i$ and $v_i = p_i$. Hint: Consider increasing the size of the ``knapsack'' in increments of $5$)}. Your answer should include the dynamic programming table you construct as part of the algorithm.
+
+\item Use dynamic programming to find the longest common subsequence between $\bX = GGATCGT$ and $\bY = CGAGCTT$.  Your answer should include the dynamic programming table you construct as part of the algorithm. \\
+
+\item Tom Brady is the greatest quarterback of all time. However even the G.O.A.T. can have off days. In this question you will analyze Brady's performance using a Hidden Markov Model. Recall that as quarterback, Brady's goal is to throw passes that are successfully caught by his receivers. If a pass is successfully caught we say it is ``complete'' and if it is not caught we say it is ``incomplete''. 
+
+\begin{enumerate}
+	\item Suppose that Brady can be in one of two states: hot or cold. When he is hot, he completes $75\%$ of his passes. When he is cold, he completes $55\%$ of his passes. The probability of transition from hot to cold is $10\%$ the probability of transition from cold to hot is $15\%$. Sketch a hidden Markov model, as we did in Lecture 21, encoding this information. \vfill
+	\item Suppose that Brady starts a particular game hot. In the first half of the game, we observe the following sequence of passes: $ICCCICCIIII$ where ``I'' denotes an incomplete pass while ``C'' denotes a complete pass. Use Viterbi's algorithm to decode the most likely sequence of states that Brady was in during this first half. Include your dynamic programming table as part of your answer. \vfill
+\end{enumerate}
+
+
+\item In this question you will compute certain derivatives used in training logistic regression. The notation is as used in Lecture 26.
+
+\begin{enumerate}
+	\item Show that $\displaystyle \frac{d}{dz}\sigma(z) = \sigma(z)\left(1-\sigma(z)\right)$ \\
+	\item Show that $\displaystyle \nabla_{\boldsymbol{\theta}}\ell_{i}(\boldsymbol{\theta},b) = -\left(y^{(i)} - \sigma\left(\boldsymbol{\theta}^{\top}\mathbf{x}^{(i)} + b\right)\right)\mathbf{x}^{(i)} $. \\
+	\item Show that $\displaystyle \frac{\partial}{\partial b}\ell_{i}(\boldsymbol{\theta},b) = -y^{(i)} + \sigma\left(\boldsymbol{\theta}^{\top}\mathbf{x}^{(i)} + b\right)$ \\
+\end{enumerate}
+
+\item Use the Jupyter notebook provided to implement logistic regression for the Heart Disease data set.  You may use the code provided in Lecture 26, and just modify it appropriately. Include code in your answer, as well as the accuracy your model achieves on the test data set. \\
+
+
+\end{enumerate}
+\end{document}

@@ -1,0 +1,78 @@
+\documentclass[10pt]{article}
+
+\input{../../bmacros}
+
+%Style section
+\setlength{\textheight}{10in}
+\setlength{\textwidth}{6.5in}
+\hoffset=-0.75in
+\voffset=-1in
+
+\begin{document}
+
+\noindent
+{Math 118 \hfill Homework Assignment 3 Winter 2021}
+%\vskip 0.1truein
+\bigskip
+\begin{quote}\emph{This is your third homework assignment. I strongly encourage you to typeset it using the LaTeX template provided. It is due by Wednesday, March 3rd.} \\
+\end{quote}
+\hrulefill
+\vskip 0.1truein
+
+\begin{enumerate}
+	\item Prove that if $g(\mathbf{x}): \mathbb{R}^{d}\to\mathbb{R}$ is convex and $f(x): \mathbb{R}\to\mathbb{R}$ is convex and non-decreasing then $f(g(\mathbf{x}))$ is convex. \\
+	
+	\item Show that $f(x) = x^{3}$ is not Lipshitz differentiable. \\
+	\item  Recall the least squares problem $\bx_{*} = \text{argmin}\|A\bx - \bb\|_2^{2}$ and let $f(\bx) = \|A\bx - \bb\|_2^{2}$, so that the problem becomes $\bx_{*} = \text{argmin} f(\bx)$. 
+	\begin{enumerate}
+		\item Show that $\displaystyle {\nabla f(\bx) = 2A^{\top}\left(A\bx - \bb\right)}$. \\
+		
+		\item Show that $f(\bx)$ is Lipschitz differentiable with constant $L = 2\sigma_{1}(A)^{2}$. \\ 
+		
+		\item Now, write code for solving the least squares problem using gradient descent. For $A$, use a random $100\times 50$ matrix generated using the Python command {\tt np.random.randn(100,50)}. For $\bb$, use a random vector generated using {\tt numpy.random.randn(100)}. Experiment with different step-sizes, $\alpha$. How large can you take $\alpha$ before the algorithm fails to converge? \\
+	
+	\end{enumerate}	
+	
+	\item Let $Q = A^{\top}A$ and $\bc = A^{\top}\bb$ Show that:
+	$$
+	\|A\bx - \bb\|_{2}^{2} = \bx^{\top}Q\bx - 2\bx^{\top}\bc + \|\bb\|^{2}
+	$$
+	{\em Hint: Use the fact that, for any vector $\bv$ we have that $\|\bv\|_{2}^{2} = \bv^{\top}\bv$.}
+	\item In class we  mentioned that, under the right circumstances, Newton's method converges a lot faster than Gradient Descent. In this question we will show that, for the least squares problem, Newton's method converges in a single step! 
+\begin{enumerate}
+	\item Using your work, and the same notation, from Question 2, argue that:
+		$$
+		\argmin \|A\bx - \bb\|_{2}^{2} = \argmin f(\bx) \quad \text{ where } f(\bx) = \bx^{\top}Q\bx - 2\bx^{\top}\bc
+		$$
+		{\em The new formulation will make computing the Hessian easier.} \\
+\item Compute $\nabla f(\bx)$ and $\nabla^{2}f(\bx)$, then write down and simplify the Newton update:
+ $$
+ \bx_1 = \bx_0  - \left(\nabla^{2}f(\bx_0)\right)^{-1}\nabla f(\bx_0).
+ $$
+ \item Assume that $Q$ is positive definite. Use the condition that for $\bx_{*}$ to be a local minimizer, $\nabla f(\bx_{*}) = 0$, to solve for the unique local minimizer of $f(\bx)$. {\em (Because $f(\bx)$ is strongly convex, this is also the unique global minimizer)}. \\
+ 
+ \item Now verify that, no matter what $\bx_0$ is, $\bx_1$ is equal to $\bx_{*}$. \\
+
+\end{enumerate}
+
+\item Convert the following linear programming problem to standard form:
+
+\begin{align*}
+\text {minimize } & 2x_1 + x_2 \\
+\text{ subject to: } & x_1 + x_2 \leq 3 \\
+							  & x_1 + 2x_2 \leq 5 \\
+							  & x_1 \geq 0 \text{ and } x_2 \geq 0
+\end{align*}
+
+\item Use the simplex method to solve the following problem:
+\begin{align*}
+	\text{ minimize } 	& -x_1 - x_2 - 3x_3 \\	
+	\text {subject to: }  & x_1 +x_3 = 1 \\
+							    	& x_2 + x_3 = 2 \\
+							    	& x_1,x_2,x_3 \geq 0
+\end{align*}
+starting with the basis $B = \{1,2\}$. For each iteration of the method, clearly display $B$, $\bx_{B}$, all $\delta_{j}$ used, $\epsilon_{\max}$ and $i^{*}$. {\em (See the lecture notes for definitions of these quantities.)}
+
+\end{enumerate}
+
+\end{document}

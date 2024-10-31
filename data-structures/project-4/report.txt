@@ -1,0 +1,51 @@
+report.txt: PROJECT 4
+
+Name: Dhruv Chakraborty
+UID: 204-962-098
+Prof. Smallberg
+CS32 Winter19
+
+1. Bugs or any other known problems:
+   I don't believe there are any bugs in my program -- almost certainly no major ones, at least. I would like to point out however, that my
+   testing for this project was quite limited. I can confirm however that there are no memory leaks and the program builds with both g32 and clang++.
+
+2. big-O requirements:
+   Every function except findRelatedGenomes meets the big-O requirements imposed on it. For findRelatedGenomes, since I sort my vector at the 
+   end, it exceeds the big-O by the sort's big-O i.e. by RlogR where R is length of results vector. I believe I could've made the function work 
+   in correct big-O by inserting items such that the vector remained sorted -- but I didn't have enough time to do this.
+
+3. The pseudocode for the given functions is as follows.
+   
+    For Trie::find():
+        I used a helper function to implement find so that I could more easily use recursion.
+        All find does is calls the helper function on the root, with the given exactMatchOnly Value, the key, and stores the results in a vector.
+        The helper function works as follows:
+            if the key the function is called with is non-empty:
+                loop through the children of the node the function was called on:
+                    if the label of a child matches with the starting char of the key:
+                       call the function on this child, with a substring of key to ignore matching char and same val of exactMatchOnly
+                    if the label did not match with given child but exactMatchOnly is false and the character being compared is not the first:
+                   	   call function on this child, with substring of key, changing the valye of exactMatchOnly to true (since no other mismatches are allowed)
+            if the key was empty:
+           		we have found a match! save all it's values in results
+
+    For GenomeMatcher::findGenomesWithThisDNA():
+		return false immediately if the fragment's length is smaller than minimumLength passed or if the minimumLength passed is smaller than given minimumSeachLength
+		call find function on the sequenceTrie with first minimumSearchLength chars of fragment and specified exactMatchOnly value -- store as couldBeMatches
+		set up a temporary container to hold DNAMatches
+		loop through the couldBeMatches:
+			set up a matchType boolean with same value as exactMatchesOnly to keep track of mismatches
+			if there is already a mismatch in the first minimumSeachLength chars between sequence and given fragment:
+				set matchType to true so as to not give more mismatch leeway
+			loop thru remaining bases in fragment, using loop's iterating integer to keep track of length of matching sequence:
+				checking each character, if there is a mismatch between the characters:
+					allow for leeway if matchType is false, setting to true now
+					if matchType is true: break out of loop
+			if the length is longer than minimumSearchLength(), add to DNAMatches if not already present. If already present, replace if this sequence is longer.
+		add all DNAMatches to matches
+		return false if DNAMatches is empty and return true otherwise
+
+
+
+
+

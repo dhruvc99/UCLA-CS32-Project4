@@ -1,0 +1,246 @@
+Name: Dhruv Chakraborty
+UID: 204-962-098
+CS 161, Prof. Van Der Broeck: HW 5
+
+1. 
+
+(a)
+
+Smoke | Fire | Smoke => Fire | ~Smoke => ~Fire | (Smoke => Fire) => (~Smoke => ~Fire)	
+=====================================================================================
+T	  |	T	 |	T			 |	T			   |	T				
+T	  |	F	 |	F			 |	T			   |	T				
+F	  |	T	 |	T			 |	F			   |	F				
+F	  |	F	 |	T			 |	T			   |	T
+
+Notice that the conditional fails when Smoke is False and Fire is True because the final statement becomes T => F which is False. Thus, this 
+statement is neither.				
+
+(b)
+
+Heat | Smoke | Fire | Smoke => Fire | (Smoke v Heat) => Fire | (Smoke => Fire) => ((Smoke v Heat) => Fire)	
+==========================================================================================================
+T    | T     | T    | T             | T   					 | T
+T    | T     | F    | F             | F                      | T
+T    | F     | T    | T             | T                      | T
+T    | F     | F    | T             | F                      | F
+F    | T     | T    | T             | T                      | T
+F    | T     | F    | F             | F                      | T
+F    | F     | T    | T             | T                      | T
+F    | F     | F    | T             | T                      | T
+
+Neither because conditional fails when Smoke and Fire are False, and Heat is True.
+
+(c)
+
+Heat | Smoke | Fire | (Smoke & Heat) => Fire | (Smoke => Fire) v (Heat => Fire) | ((Smoke & Heat) => Fire) <=> ((Smoke => Fire) v (Heat => Fire))	
+==================================================================================================================================================
+T    | T     | T    | T            			 | T   					 		    | T
+T    | T     | F    | F          		     | F                     		    | T
+T    | F     | T    | T            			 | T                     		    | T
+T    | F     | F    | T            			 | T                    		    | T
+F    | T     | T    | T            			 | T                    		    | T
+F    | T     | F    | T            			 | T                       		    | T
+F    | F     | T    | T            			 | T                    		    | T
+F    | F     | F    | T            			 | T                 		        | T
+
+This biconditional is valid since all designations are true.
+
+2. 
+
+M = Unicorn is mythical
+I = Unicorn is immortal
+A = Unicorn is a mammal
+H = Unicorn is horned
+G = Unicorn is magical
+
+(a)
+
+If the unicorn is mythical, then it is immortal, but if it is not mythical, then it is a mortal mammal.
+This sentence can be represented as (M => I) & (~M => (~I & A))
+
+If the unicorn is either immortal or a mammal, then it is horned.
+This sentence can be represented as (I v A) => H
+
+The unicorn is magical if it is horned.
+This sentence can be represented as H => G
+
+(b)
+
+(M => I) & (~M => (~I & A))
+= (~M v I) & (M v (~I & A))
+= (~M v I) & (M v ~I) & (M v A) -- call 1, 2, 3 respectively (designating each clause)
+
+(I v A) => H
+= ~(I v A) v H
+= (~I & ~A) v H
+= (~I v H) & (~A v H) -- call 4, 5 respectively (each clause)
+
+H => G
+= ~H v G -- call 6
+
+(c)
+
+We cannot tell whether the unicorn is mythical from this knowledge base. However, the unicorn is indeed 
+magical and horned. The proofs follow.
+
+Proof for G:
+Suppose for contradiction the unicorn is not magical i.e. we have ~G. 
+By 6 and ~G we get ~H. 
+By 4 and ~H we get ~I.
+By 5 and ~H we get ~A.
+By 3 and ~A we get M. 
+But by 1 and ~I we get ~M, which is a contradiction. 
+Thus we have G i.e. unicorn is magical.
+
+Proof for H:
+Suppose for contradiction the unicorn is not horned i.e. we have ~H.
+By 4 and ~H we get ~I.
+By 5 and ~H we get ~A.
+By 3 and ~A we get M. 
+But by 1 and ~I we get ~M, which is a contradiction. 
+Thus we have H i.e. unicorn is horned.
+
+3.
+
+(a)
+		P(O)			   P(G)	
+		0.5				   0.2
+		   Oil 			Gas
+			|			|
+          	|			|
+          	|			|
+			~-->Test<---~
+
+			===============
+			| O | G | P(T)|
+			---------------
+			| t | f | 0.9 |
+			| f | t | 0.3 |
+			| f | f | 0.1 |
+			===============
+
+(b)
+
+P(O|T) = P(O & T)/P(T) = (0.9*0.5)/(0.9*0.5 + 0.3*0.2 + 0.1*0.3) = 0.45/0.54 = 5/6 = 0.833...
+
+Therefore, the probability of oil being present if the test comes back positive is 0.833.
+
+4. 
+
+Note: I have used sum to denote sigma notation with the variable we're summing over presented under said sum operation.
+
+(a)
+
+Pr(A,B,C,D,E,F,G,H) = Pr(H|EF)*Pr(G|F)*Pr(F|CD)*Pr(E|B)*Pr(C|A)*Pr(D|AB)*Pr(B)*Pr(A)
+
+(b)
+
+Pr(E,F,G,H) = sum{sum{sum{sum{Pr(H|EF)*Pr(G|F)*Pr(F|CD)*Pr(E|B)*Pr(C|A)*Pr(D|AB)*Pr(B)*Pr(A)}}}}
+			   A   B   C   D
+			= sum{Pr(A)sum{Pr(E|B)*Pr(B)sum{Pr(C|A)sum{Pr(H|EF)*Pr(G|F)*Pr(F|CD)*Pr(D|AB)}}}}
+			   A	    B                C          D
+			= sum{p(A)sum{q(E,B)sum{r(C,A)sum{s(A,B,C,D,E,F,G,H)}}}}            
+			   A       B         C         D
+			where p(A) = Pr(A)
+			      q(E,B) = Pr(E|B)*P(B)
+			      r(C,A) = Pr(C|A)
+			      s(A,B,C,D,E,F,G,H) = Pr(H|EF)*Pr(G|F)*Pr(F|CD)*Pr(D|AB)
+
+(c)
+
+Pr(a,~b,c,d,~e,f,~g,h) = (0.1)*(0.6)*(0.2)*(0.3)*Pr(h|~ef)*Pr(~g|f)*Pr(f|cd)*Pr(c|a) = 0.0036*Pr(h|~ef)*Pr(~g|f)*Pr(f|cd)*Pr(c|a)
+
+(d)
+Pr(~a|b) = Pr(~a & b)/Pr(b) = Pr(~a)*Pr(b)/Pr(b) [since A and B are independent] = Pr(~a) = 0.8
+
+Pr(~e|a) = Pr(~e & a)/Pr(a) = Pr(~e)*Pr(a)/Pr(a) [since A and E are independent] = Pr(~e|b)*Pr(b) + Pr(~e|~b)*Pr(~b) = 0.9*0.7 + 0.1*0.3 = 0.66
+
+(e) 
+
+The topological semantics encoded in the network are:
+- A and B are entirely independent
+- C is independent of its non-descendents i.e. B, D and E given its parents i.e. A
+- D is independent of C and E given A and B
+- E is independent of A, C and D given B
+- F is independent of A, B and E given C and D
+- G is independent of A, B, C, D, E and H given F
+- H is independent of A, B, C, D and G given E and F
+
+(f)
+
+D's Markov blanket is composed of variables A, B, C and F.
+
+(g)
+
+Set f1(D,A,B) = Pr(D|AB) and f2(E,B) = Pr(E|B).
+Then f1(D,A,B)*f2(E,B):
+
+A | B | D | E | val
+=====================
+1 | 1 | 1 | 1 | 0.05
+1 | 1 | 1 | 0 | 0.45
+1 | 1 | 0 | 1 | 0.05
+1 | 1 | 0 | 0 | 0.45
+1 | 0 | 1 | 1 | 0.54
+1 | 0 | 1 | 0 | 0.06
+1 | 0 | 0 | 1 | 0.36
+1 | 0 | 0 | 0 | 0.04
+0 | 1 | 1 | 1 | 0.01
+0 | 1 | 1 | 0 | 0.09
+0 | 1 | 0 | 1 | 0.09
+0 | 1 | 0 | 0 | 0.81
+0 | 0 | 1 | 1 | 0.72
+0 | 0 | 1 | 0 | 0.08
+0 | 0 | 0 | 1 | 0.18
+0 | 0 | 0 | 0 | 0.02
+
+(h)
+
+sum(f1(D,A,B)*f2(E,B)):
+ D
+
+A | B | E | val
+================
+1 | 1 | 1 | 0.1
+1 | 1 | 0 | 0.9
+1 | 0 | 1 | 0.9
+1 | 0 | 0 | 0.1
+0 | 1 | 1 | 0.1
+0 | 1 | 0 | 0.9
+0 | 0 | 1 | 0.9
+0 | 0 | 0 | 0.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
